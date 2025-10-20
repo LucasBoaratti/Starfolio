@@ -1,0 +1,15 @@
+/* Estilizando o cabeçalho */
+.cabecalho {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 40px;
+    font-size: 20px;
+}
+
+/* Estilização dos links para acesso no site */
+.links {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}

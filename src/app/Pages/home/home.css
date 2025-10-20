@@ -1,0 +1,190 @@
+/* Estilizando a página home para telas menores */
+#home {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+/* Estilizando a aba de informações */
+.informacoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+/* Estilizando a foto de perfil */
+.fotoPerfil {
+    width: 550px;
+    height: 400px;
+    margin-left: 45px;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px white;
+}
+
+/* Estilizando a área de informações */
+.informacoesSobreMim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-right: 45px;
+}
+
+/* Estilizando o meu nome */
+.nome {
+    font-size: 40px;
+    font-family: "Quantico", sans-serif;
+    color: #FFEA00;
+    text-align: justify;
+}
+
+/* Estilizando o texto informativo */
+.textoInformativo {
+    width: 510px;
+    font-size: 18px;
+}
+
+/* Estilizando a área de tecnologias */
+#tecnologias {
+    margin: 0 60px;
+}
+
+/* Estilizando a área de títulos de tecnologias aprendidas */
+.titulosTecnologias {
+    margin-top: 100px;
+}
+
+/* Estilizando o título de tecnologias */
+.titulo {
+    font-size: 40px;
+    color: #FFEA00;
+    font-family: "Quantico", sans-serif;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Estilizando o texto de tecnologias */
+.textoTecnologias {
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* Estilizando o fundo de galáxias das tecnologias */
+.backgroundGalaxia {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    position: relative;
+}
+
+/* Estilizando todos os planetas para ficarem "mexíveis" */
+.planeta {
+    position: absolute;
+    cursor: pointer;
+    transform: translate(-50% -100%);
+    transition: transform 0.3s ease-in;
+}
+
+/* Aumentando o tamanho do planeta ao passar o mouse por cima */
+.planeta:hover {
+    transform: scale(1.2);
+}
+
+/* Definindo as posições dos planetas */
+.tatooine {
+    top: 8%;
+    left: 8%;
+}
+
+.naboo {
+    top: 25%;
+    left: 85%;
+}
+
+.coruscant {
+    top: 80%;
+    left: 87%;
+}
+
+.kamino {
+    top: 10%;
+    left: 48%;
+}
+
+.geonosis {
+    top: 15%;
+    left: 30%;
+}
+
+.lothal {
+    top: 40%;
+    left: 5%;
+}
+
+.zeltros {
+    top: 25%;
+    left: 60%;
+}
+
+.jedha {
+    top: 6%;
+    left: 70%;
+}
+
+.lahmu {
+    top: 55%;
+    left: 30%;
+}
+
+.endor {
+    top: 55%;
+    left: 85%;
+}
+
+.corellia {
+    top: 35%;
+    left: 45%;
+}
+
+.kessel {
+    top: 60%;
+    left: 10%;
+}
+
+.ryloth {
+    top: 80%;
+    left: 40%;
+}
+
+.felucia {
+    top: 35%;
+    left: 25%;
+}
+
+.chandrila {
+    top: 47%;
+    left: 67%;
+}
+
+.bespin {
+    top: 65%;
+    left: 55%;
+}
+
+.polis_massa {
+    top: 80%;
+    left: 5%;
+}
+
+.fondor {
+    top: 73%;
+    left: 22%;
+}
+
+.scarif {
+    top: 75%;
+    left: 70%;
+}
