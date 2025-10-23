@@ -1,13 +1,12 @@
 import { Component, Input } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-html',
-  imports: [CommonModule],
-  templateUrl: './html.html',
-  styleUrl: './html.css'
+  selector: 'app-sass',
+  imports: [],
+  templateUrl: './sass.html',
+  styleUrl: './sass.css'
 })
-export class HTML {
+export class SASS {
   // Controlando a visibilidade do modal
   @Input() openModal = false;
 

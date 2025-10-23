@@ -1,0 +1,22 @@
+<!-- Modal do CSS -->
+@if ((openModal)) {
+    <section class="modalCSS">
+        <div class="modal">
+            <div class="descricaoPlaneta">
+                <div class="descricao">
+                    <h1 class="linguagem">Linguagem|tecnologia: CSS</h1>
+                    <h2 class="planeta">Planeta associado: Naboo</h2>
+                    <p class="textoDescricao">Descrição:</p>
+                    <p class="descricaoNaboo">Naboo, com seus lagos serenos e arquitetura grandiosa, reflete o CSS: a camada que traz harmonia, elegância e as cores suaves para o terreno estrutural do HTML. É a beleza que transcende a base.</p>
+                </div>
+                <div class="planetaLinguagem">
+                    <img src="assets/images/Naboo_CSS.png" alt="Planeta Naboo." class="planetaNaboo">
+                    <img src="assets/images/Icone_CSS.png" alt="Ícone do CSS." class="iconeCSS">
+                </div>
+            </div>
+            <div class="botaoFechar">
+                <button type="button" class="botao" (click)="closeModal()">Fechar</button>
+            </div>
+        </div>
+    </section>
+}

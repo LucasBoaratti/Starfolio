@@ -1,0 +1,22 @@
+<!-- Modal do Tailwind -->
+@if ((openModal)) {
+    <section class="modalTailwind">
+        <div class="modal">
+            <div class="descricaoPlaneta">
+                <div class="descricao">
+                    <h1 class="linguagem">Linguagem|tecnologia: Tailwind</h1>
+                    <h2 class="planeta">Planeta associado: Lothal</h2>
+                    <p class="textoDescricao">Descrição:</p>
+                    <p class="descricaoLothal">Lothal, com suas vastas planícies e a base discreta de suas fazendas, é o Tailwind CSS: um framework utilitário que traz eficiência e liberdade para construir estilos complexos diretamente no terreno do HTML.</p>
+                </div>
+                <div class="planetaLinguagem">
+                    <img src="assets/images/Lothal_Tailwind.png" alt="Planeta Lothal." class="planetaLothal">
+                    <img src="assets/images/Icone_Tailwind.png" alt="Ícone do Tailwind." class="iconeTailwind">
+                </div>
+            </div>
+            <div class="botaoFechar">
+                <button type="button" class="botao" (click)="closeModal()">Fechar</button>
+            </div>
+        </div>
+    </section>
+}

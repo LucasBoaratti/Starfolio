@@ -1,15 +1,22 @@
 <!-- Modal do HTML -->
-<section class="modalHTML">
-    <div class="modal">
-        <div class="descricao">
-            <h1 class="linguagem">Linguagem|tecnologia: HTML</h1>
-            <h2 class="planeta">Planeta associado: Tatooine</h2>
-            <p class="descricao">Descrição:</p>
-            <p class="textoDescricao">Assim como Tatooine é a base árida onde tudo começa, o HTML é o terreno fundamental da web. Simples, resistente e essencial para qualquer jornada galáctica no desenvolvimento.</p>
+@if ((openModal)) {
+    <section class="modalHTML" *ngIf="openModal">
+        <div class="modal">
+            <div class="descricaoPlaneta">
+                <div class="descricao">
+                    <h1 class="linguagem">Linguagem|tecnologia: HTML</h1>
+                    <h2 class="planeta">Planeta associado: Tatooine</h2>
+                    <p class="textoDescricao">Descrição:</p>
+                    <p class="descricaoTatooine">Assim como Tatooine é a base árida onde tudo começa, o HTML é o terreno fundamental da web. Simples, resistente e essencial para qualquer jornada galáctica no desenvolvimento.</p>
+                </div>
+                <div class="planetaLinguagem">
+                    <img src="assets/images/Tatooine_HTML.png" alt="Planeta Tatooine." class="planetaTatooine">
+                    <img src="assets/images/Icone_HTML.png" alt="Ícone do HTML." class="iconeHTML">
+                </div>
+            </div>
+            <div class="botaoFechar">
+                <button type="button" class="botao" (click)="closeModal()">Fechar</button>
+            </div>
         </div>
-        <div class="planetaLinguagem">
-            <img src="assets/images/Tatooine_HTML.png" alt="Planeta Tatooine." class="plaentaTatooine">
-            <img src="assets/images/Icone_HTML.png" alt="Ícone do HTML." class="iconeHTML">
-        </div>
-    </div>
-</section>
+    </section>
+}

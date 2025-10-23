@@ -1,0 +1,22 @@
+<!-- Modal do JavaScript -->
+@if ((openModal)) {
+    <section class="modalJavaScript">
+        <div class="modal">
+            <div class="descricaoPlaneta">
+                <div class="descricao">
+                    <h1 class="linguagem">Linguagem|tecnologia: JavaScript</h1>
+                    <h2 class="planeta">Planeta associado: Coruscant</h2>
+                    <p class="textoDescricao">Descrição:</p>
+                    <p class="descricaoCoruscant">Coruscant, o centro nevrálgico da Galáxia, representa o JavaScript: é a camada de lógica e dinamismo, onde todas as interações e decisões do sistema FrontEnd são orquestradas.</p>
+                </div>
+                <div class="planetaLinguagem">
+                    <img src="assets/images/Coruscant_JavaScript.png" alt="Planeta Coruscant." class="planetaCoruscant">
+                    <img src="assets/images/Icone_JavaScript.png" alt="Ícone do JavaScript." class="iconeJavaScript">
+                </div>
+            </div>
+            <div class="botaoFechar">
+                <button type="button" class="botao" (click)="closeModal()">Fechar</button>
+            </div>
+        </div>
+    </section>
+}

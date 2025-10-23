@@ -1,13 +1,12 @@
 import { Component, Input } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-html',
-  imports: [CommonModule],
-  templateUrl: './html.html',
-  styleUrl: './html.css'
+  selector: 'app-java-script',
+  imports: [],
+  templateUrl: './java-script.html',
+  styleUrl: './java-script.css'
 })
-export class HTML {
+export class JavaScript {
   // Controlando a visibilidade do modal
   @Input() openModal = false;
 

@@ -1,0 +1,22 @@
+<!-- Modal do Angular -->
+@if ((openModal)) {
+    <section class="modalAngular">
+        <div class="modal">
+            <div class="descricaoPlaneta">
+                <div class="descricao">
+                    <h1 class="linguagem">Linguagem|tecnologia: Angular</h1>
+                    <h2 class="planeta">Planeta associado: Geonosis</h2>
+                    <p class="textoDescricao">Descrição:</p>
+                    <p class="descricaoGeonosis">Geonosis, com suas vastas forjas e estruturas em colmeia, representa o Angular: o framework robusto e estruturado, ideal para construir aplicações de escala industrial, com arquitetura definida e ferramentas prontas para produção.</p>
+                </div>
+                <div class="planetaLinguagem">
+                    <img src="assets/images/Geonosis_Angular.png" alt="Planeta Geonosis." class="planetaGeonosis">
+                    <img src="assets/images/Icone_Angular.png" alt="Ícone do Angular." class="iconeAngular">
+                </div>
+            </div>
+            <div class="botaoFechar">
+                <button type="button" class="botao" (click)="closeModal()">Fechar</button>
+            </div>
+        </div>
+    </section>
+}

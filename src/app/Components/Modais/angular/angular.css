@@ -1,5 +1,5 @@
 /* Estilizando o container do modal */
-.modalHTML {
+.modalAngular {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,7 +15,7 @@
 
 /* Estilizando o interior do modal */
 .modal {
-    background: linear-gradient(90deg, #384C6E, #736357);
+    background: linear-gradient(90deg, #CC5500, #663300);
     box-shadow: 0 4px 10px rgb(0, 0, 0, 0.5);
     padding: 25px;
     color: white;
@@ -56,6 +56,7 @@
 .linguagem {
     font-size: 25px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .planeta {
@@ -68,7 +69,7 @@
     margin-bottom: 10px;
 }
 
-.descricaoTatooine {
+.descricaoAngular {
     font-size: 16px;
     text-align: justify;
 }
@@ -83,13 +84,13 @@
 }
 
 /* Estilizando o planeta */
-.planetaTatooine {
-    width: 110px;
-    height: 110px;
+.planetaGeonosis {
+    width: 130px;
+    height: 130px;
 }
 
 /* Estilizando o ícone */
-.iconeHTML {
+.iconeAngular {
     width: 106px;
     height: 106px;
 }
@@ -108,10 +109,11 @@
     border-radius: 15px;
     background-color: yellow;
     font-size: 16px;
-    transition: background-color 0.1s ease;
+    transition: background-color 0.1s ease, color 0.1s ease;
     cursor: pointer;
 }
 
 .botao:active {
-    background-color: #E65100;
+    background: linear-gradient(#FF31D9, #FF5BE1);
+    color: white;
 }

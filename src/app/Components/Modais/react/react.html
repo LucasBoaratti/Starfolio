@@ -1,0 +1,22 @@
+<!-- Modal do React -->
+@if ((openModal)) {
+    <section class="modalReact">
+        <div class="modal">
+            <div class="descricaoPlaneta">
+                <div class="descricao">
+                    <h1 class="linguagem">Linguagem|tecnologia: React</h1>
+                    <h2 class="planeta">Planeta associado: Kamino</h2>
+                    <p class="textoDescricao">Descrição:</p>
+                    <p class="descricaoKamino">Kamino, o planeta onde a eficiência é clonada e replicada, espelha o React: a tecnologia que permite construir interfaces complexas através da reutilização de componentes perfeitos e isolados.</p>
+                </div>
+                <div class="planetaLinguagem">
+                    <img src="assets/images/Kamino_React.png" alt="Planeta Kamino." class="planetaKamino">
+                    <img src="assets/images/Icone_React.png" alt="Ícone do React." class="iconeReact">
+                </div>
+            </div>
+            <div class="botaoFechar">
+                <button type="button" class="botao" (click)="closeModal()">Fechar</button>
+            </div>
+        </div>
+    </section>
+}

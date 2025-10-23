@@ -16,13 +16,28 @@
         <div class="backgroundGalaxia">
             <img src="assets/images/Fundo_Galaxia.png" alt="Fundo de galáxia." class="fundoGalaxia">
             <div class="planetas">
-                <img src="assets/images/Tatooine_HTML.png" alt="Planeta Tatooine." class="planeta tatooine">
-                <img src="assets/images/Naboo_CSS.png" alt="Planeta Naboo" class="planeta naboo">
-                <img src="assets/images/Coruscant_JavaScript.png" alt="Planeta Coruscant" class="planeta coruscant">
-                <img src="assets/images/Kamino_React.png" alt="Planeta Kamino" class="planeta kamino">
-                <img src="assets/images/Geonosis_Angular.png" alt="Planeta Geonosis" class="planeta geonosis">
-                <img src="assets/images/Lothal_Tailwind.png" alt="Planeta Lothal" class="planeta lothal">
-                <img src="assets/images/Zeltros_SASS.png" alt="Planeta Zeltros" class="planeta zeltros">
+                <img src="assets/images/Tatooine_HTML.png" alt="Planeta Tatooine." class="planeta tatooine" (click)="abrirModalHTML()">
+                <!-- Renderizando o modal -->
+                <app-html [openModal]="modalHTML" [closeModal]="fecharModalHTML"></app-html>
+
+                <img src="assets/images/Naboo_CSS.png" alt="Planeta Naboo" class="planeta naboo" (click)="abrirModalCSS()">
+                <app-css [openModal]="modalCSS" [closeModal]="fecharModalCSS"></app-css>
+
+                <img src="assets/images/Coruscant_JavaScript.png" alt="Planeta Coruscant" class="planeta coruscant" (click)="abrirModalJavaScript()">
+                <app-java-script [openModal]="modalJavaScript" [closeModal]="fecharModalJavaScript"></app-java-script>
+
+                <img src="assets/images/Kamino_React.png" alt="Planeta Kamino" class="planeta kamino" (click)="abrirModalReact()">
+                <app-react [openModal]="modalReact" [closeModal]="fecharModalReact"></app-react>
+
+                <img src="assets/images/Geonosis_Angular.png" alt="Planeta Geonosis" class="planeta geonosis" (click)="abrirModalAngular()">
+                <app-angular [openModal]="modalAngular" [closeModal]="fecharModalAngular"></app-angular>
+
+                <img src="assets/images/Lothal_Tailwind.png" alt="Planeta Lothal" class="planeta lothal" (click)="abrirModalTailwind()">
+                <app-tailwind [openModal]="modalTailwind" [closeModal]="fecharModalTailwind"></app-tailwind>
+
+                <img src="assets/images/Zeltros_SASS.png" alt="Planeta Zeltros" class="planeta zeltros" (click)="abrirModalSASS()">
+                <app-sass [openModal]="modalSASS" [closeModal]="fecharModalSASS"></app-sass>
+
                 <img src="assets/images/Jedha_TypeScript.png" alt="Planeta Jedha" class="planeta jedha">
                 <img src="assets/images/Lah'mu_Flutter.png" alt="Planeta Lah'mu" class="planeta lahmu">
                 <img src="assets/images/Endor_Python.png" alt="Planeta Endor" class="planeta endor">

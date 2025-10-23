@@ -1,5 +1,5 @@
 /* Estilizando o container do modal */
-.modalHTML {
+.modalCSS {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,7 +15,7 @@
 
 /* Estilizando o interior do modal */
 .modal {
-    background: linear-gradient(90deg, #384C6E, #736357);
+    background: linear-gradient(90deg, #003D5B, #660000);
     box-shadow: 0 4px 10px rgb(0, 0, 0, 0.5);
     padding: 25px;
     color: white;
@@ -68,7 +68,7 @@
     margin-bottom: 10px;
 }
 
-.descricaoTatooine {
+.descricaoNaboo {
     font-size: 16px;
     text-align: justify;
 }
@@ -83,13 +83,13 @@
 }
 
 /* Estilizando o planeta */
-.planetaTatooine {
+.planetaNaboo {
     width: 110px;
     height: 110px;
 }
 
 /* Estilizando o ícone */
-.iconeHTML {
+.iconeCSS {
     width: 106px;
     height: 106px;
 }
@@ -108,10 +108,11 @@
     border-radius: 15px;
     background-color: yellow;
     font-size: 16px;
-    transition: background-color 0.1s ease;
+    transition: background-color 0.1s ease, color 0.1s ease;
     cursor: pointer;
 }
 
 .botao:active {
-    background-color: #E65100;
+    background-color: #1572B6;
+    color: white;
 }
