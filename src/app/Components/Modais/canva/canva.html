@@ -1,0 +1,22 @@
+<!-- Modal do Canva -->
+@if ((openModal)) {
+    <section class="modalCanva">
+        <div class="modal">
+            <div class="descricaoPlaneta">
+                <div class="descricao">
+                    <h1 class="linguagem">Linguagem|tecnologia: Canva</h1>
+                    <h2 class="planeta">Planeta associado: Bespin</h2>
+                    <p class="textoDescricao">Descrição:</p>
+                    <p class="descricaoBespin">Bespin, a Cidade das Nuvens que oferece uma visão ampla e acessível do céu, representa o Canva: a ferramenta que democratiza o design, permitindo a criação rápida e visualmente atrativa de qualquer recurso de FrontEnd, com total leveza e visibilidade.</p>
+                </div>
+                <div class="planetaLinguagem">
+                    <img src="assets/images/Bespin_Canva.png" alt="Planeta Bespin." class="planetaBespin">
+                    <img src="assets/images/Icone_Canva.png" alt="Ícone do Canva." class="iconeCanva">
+                </div>
+            </div>
+            <div class="botaoFechar">
+                <button type="button" class="botao" (click)="closeModal()">Fechar</button>
+            </div>
+        </div>
+    </section>
+}

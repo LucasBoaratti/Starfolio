@@ -1,0 +1,22 @@
+<!-- Modal do Dart -->
+@if ((openModal)) {
+    <section class="modalDart">
+        <div class="modal">
+            <div class="descricaoPlaneta">
+                <div class="descricao">
+                    <h1 class="linguagem">Linguagem|tecnologia: Dart</h1>
+                    <h2 class="planeta">Planeta associado: Felucia</h2>
+                    <p class="textoDescricao">Descrição:</p>
+                    <p class="descricaoFelucia">Felúcia, um mundo de ecossistemas únicos e adaptações complexas, representa o Dart: a linguagem versátil e concisa que se adapta tanto ao FrontEnd (com Flutter) quanto ao BackEnd, oferecendo uma experiência de código moderna e elegante.</p>
+                </div>
+                <div class="planetaLinguagem">
+                    <img src="assets/images/Felucia_Dart.png" alt="Planeta Felucia." class="planetaFelucia">
+                    <img src="assets/images/Icone_Dart.png" alt="Ícone do Dart." class="iconeDart">
+                </div>
+            </div>
+            <div class="botaoFechar">
+                <button type="button" class="botao" (click)="closeModal()">Fechar</button>
+            </div>
+        </div>
+    </section>
+}

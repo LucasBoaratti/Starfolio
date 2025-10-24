@@ -1,0 +1,22 @@
+<!-- Modal de todos os bancos de dados existentes -->
+@if ((openModal)) {
+    <section class="modalBancoDados">
+        <div class="modal">
+            <div class="descricaoPlaneta">
+                <div class="descricao">
+                    <h1 class="linguagem">Linguagem|tecnologia: Banco de dados</h1>
+                    <h2 class="planeta">Planeta associado: Scarif</h2>
+                    <p class="textoDescricao">Descrição:</p>
+                    <p class="descricaoScarif">Scarif, o mundo-cofre que armazena os planos essenciais da Estrela da Morte, representa o Banco de Dados: o sistema vital que organiza, armazena e protege todos os dados estruturais e operacionais, sendo a fundação para a lógica de BackEnd e a exibição do FrontEnd.</p>
+                </div>
+                <div class="planetaLinguagem">
+                    <img src="assets/images/Scarif_Banco_Dados.png" alt="Planeta Scarif." class="planetaScarif">
+                    <img src="assets/images/Icone_Banco_Dados.png" alt="Ícone do Banco de dados." class="iconeBancoDados">
+                </div>
+            </div>
+            <div class="botaoFechar">
+                <button type="button" class="botao" (click)="closeModal()">Fechar</button>
+            </div>
+        </div>
+    </section>
+}

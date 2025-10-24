@@ -1,0 +1,22 @@
+<!-- Modal do Figma -->
+@if ((openModal)) {
+    <section class="modalFigma">
+        <div class="modal">
+            <div class="descricaoPlaneta">
+                <div class="descricao">
+                    <h1 class="linguagem">Linguagem|tecnologia: Figma</h1>
+                    <h2 class="planeta">Planeta associado: Chandrila</h2>
+                    <p class="textoDescricao">Descrição:</p>
+                    <p class="descricaoChandrila">Chandrila, com sua importância política e foco em consenso e colaboração, representa o Figma: a ferramenta central de design onde a equipe inteira (devs, designers e stakeholders) converge para criar, prototipar e evoluir a interface do usuário em tempo real.</p>
+                </div>
+                <div class="planetaLinguagem">
+                    <img src="assets/images/Chandrila_Figma.png" alt="Planeta Chandrila." class="planetaChandrila">
+                    <img src="assets/images/Icone_Figma.png" alt="Ícone do Figma." class="iconeFigma">
+                </div>
+            </div>
+            <div class="botaoFechar">
+                <button type="button" class="botao" (click)="closeModal()">Fechar</button>
+            </div>
+        </div>
+    </section>
+}

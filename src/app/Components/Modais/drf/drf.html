@@ -1,0 +1,22 @@
+<!-- Modal do DjangoRestFramework -->
+@if ((openModal)) {
+    <section class="modalDRF">
+        <div class="modal">
+            <div class="descricaoPlaneta">
+                <div class="descricao">
+                    <h1 class="linguagem">Linguagem|tecnologia: DjangoRestFramework</h1>
+                    <h2 class="planeta">Planeta associado: Fondor</h2>
+                    <p class="textoDescricao">Descrição:</p>
+                    <p class="descricaoFondor">Fondor, o estaleiro que transforma navios brutos em frotas funcionais, representa o Django REST Framework: a poderosa extensão que transforma um projeto Django comum em uma API REST coesa, organizada e pronta para consumo por qualquer aplicação FrontEnd.</p>
+                </div>
+                <div class="planetaLinguagem">
+                    <img src="assets/images/Fondor_DRF.png" alt="Planeta Fondor." class="planetaFondor">
+                    <img src="assets/images/Icone_DRF.png" alt="Ícone do DjangoRestFramework" class="iconeDRF">
+                </div>
+            </div>
+            <div class="botaoFechar">
+                <button type="button" class="botao" (click)="closeModal()">Fechar</button>
+            </div>
+        </div>
+    </section>
+}

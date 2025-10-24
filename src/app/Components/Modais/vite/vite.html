@@ -1,0 +1,22 @@
+<!-- Modal do Vite -->
+@if ((openModal)) {
+    <section class="modalVite">
+        <div class="modal">
+            <div class="descricaoPlaneta">
+                <div class="descricao">
+                    <h1 class="linguagem">Linguagem|tecnologia: Vite</h1>
+                    <h2 class="planeta">Planeta associado: Polis Massa</h2>
+                    <p class="textoDescricao">Descrição:</p>
+                    <p class="descricaoPolisMassa">Polis Massa, o posto avançado conciso e funcional focado em observação e agilidade, representa o Vite: a ferramenta que transforma o desenvolvimento FrontEnd com sua velocidade relâmpago, simplificando o bundling e garantindo a construção instantânea de projetos.</p>
+                </div>
+                <div class="planetaLinguagem">
+                    <img src="assets/images/Polis_Massa_Vite.png" alt="Planeta Polis Massa." class="planetaPolisMassa">
+                    <img src="assets/images/Icone_Vite.png" alt="Ícone do Vite." class="iconeVite">
+                </div>
+            </div>
+            <div class="botaoFechar">
+                <button type="button" class="botao" (click)="closeModal()">Fechar</button>
+            </div>
+        </div>
+    </section>
+}

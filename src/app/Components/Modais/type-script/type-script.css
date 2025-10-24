@@ -1,0 +1,120 @@
+/* Estilizando o container do modal */
+.modalTypeScript {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgb(161, 161, 161, 0.7);
+}
+
+/* Estilizando o interior do modal */
+.modal {
+    background: linear-gradient(90deg, #2980B9, #4A4A4A);
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.5);
+    padding: 25px;
+    color: white;
+    font-size: 16px;
+    width: 540px;
+    height: auto;
+    border-radius: 25px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fade 0.5s ease-in-out forwards;
+}
+
+/* Animando o modal */
+@keyframes fade {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Estilizando a área da descrição e do planeta */
+.descricaoPlaneta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Estilizando as descrições do planeta */
+.descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.linguagem {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.planeta {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.textoDescricao {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.descricaoTypeScript {
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* Estilizando o planeta e o ícone */
+.planetaLinguagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Estilizando o planeta */
+.planetaJedha {
+    width: 130px;
+    height: 130px;
+}
+
+/* Estilizando o ícone */
+.iconeSASS {
+    width: 106px;
+    height: 106px;
+}
+
+/* Estilizando o botão de fechar o modal */
+.botaoFechar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilizando o botão */
+.botao {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: yellow;
+    font-size: 16px;
+    transition: background-color 0.1s ease, color 0.1s ease, border 0.1s ease;
+    cursor: pointer;
+}
+
+.botao:active {
+    background-color: #007ACC;
+    border: 2px solid black;
+    color: white;
+}

@@ -1,0 +1,22 @@
+<!-- Modal do FastAPI -->
+@if ((openModal)) {
+    <section class="modalFastAPI">
+        <div class="modal">
+            <div class="descricaoPlaneta">
+                <div class="descricao">
+                    <h1 class="linguagem">Linguagem|tecnologia: FastAPI</h1>
+                    <h2 class="planeta">Planeta associado: Kessel</h2>
+                    <p class="textoDescricao">Descrição:</p>
+                    <p class="descricaoKessel">Kessel, o local da Rota lendária onde cada segundo conta, representa o FastAPI: o framework Python moderno que utiliza tipagem e programação assíncrona para garantir APIs de BackEnd com performance e velocidade excepcionais, ideal para a transferência de dados em alta velocidade.</p>
+                </div>
+                <div class="planetaLinguagem">
+                    <img src="assets/images/Kessel_FastAPI.png" alt="Planeta Kessel." class="planetaKessel">
+                    <img src="assets/images/Icone_FastAPI.png" alt="Ícone do FastAPI." class="iconeFastAPI">
+                </div>
+            </div>
+            <div class="botaoFechar">
+                <button type="button" class="botao" (click)="closeModal()">Fechar</button>
+            </div>
+        </div>
+    </section>
+}

@@ -1,0 +1,22 @@
+<!-- Modal do Flutter -->
+@if ((openModal)) {
+    <section class="modalFlutter">
+        <div class="modal">
+            <div class="descricaoPlaneta">
+                <div class="descricao">
+                    <h1 class="linguagem">Linguagem|tecnologia: Flutter</h1>
+                    <h2 class="planeta">Planeta associado: Lah'mu</h2>
+                    <p class="textoDescricao">Descrição:</p>
+                    <p class="descricaoLahmu">Lah'mu, com sua paisagem isolada e versátil, representa o Flutter: o framework que oferece uma tela totalmente limpa e modular para construir interfaces nativas e esteticamente belas em qualquer plataforma, garantindo refúgio e funcionalidade onde quer que o código seja levado.</p>
+                </div>
+                <div class="planetaLinguagem">
+                    <img src="assets/images/Lah'mu_Flutter.png" alt="Planeta Lah'mu." class="planetaLahmu">
+                    <img src="assets/images/Icone_Flutter.png" alt="Ícone do Flutter." class="iconeFlutter">
+                </div>
+            </div>
+            <div class="botaoFechar">
+                <button type="button" class="botao" (click)="closeModal()">Fechar</button>
+            </div>
+        </div>
+    </section>
+}

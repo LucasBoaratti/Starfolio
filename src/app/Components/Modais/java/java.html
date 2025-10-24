@@ -1,0 +1,22 @@
+<!-- Modal do Java -->
+@if ((openModal)) {
+    <section class="modalJava">
+        <div class="modal">
+            <div class="descricaoPlaneta">
+                <div class="descricao">
+                    <h1 class="linguagem">Linguagem|tecnologia: Java</h1>
+                    <h2 class="planeta">Planeta associado: Ryloth</h2>
+                    <p class="textoDescricao">Descrição:</p>
+                    <p class="descricaoRyloth">Ryloth, com seu ciclo de dia/noite complexo e a resiliência de seu povo, representa o Java: uma linguagem madura, robusta e orientada a objetos, construída para operar com estabilidade e portabilidade em qualquer ambiente de BackEnd.</p>
+                </div>
+                <div class="planetaLinguagem">
+                    <img src="assets/images/Ryloth_Java.png" alt="Planeta Ryloth." class="planetaRyloth">
+                    <img src="assets/images/Icone_Java.png" alt="Ícone do Java." class="iconeJava">
+                </div>  
+            </div>
+            <div class="botaoFechar">
+                <button type="button" class="botao" (click)="closeModal()">Fechar</button>
+            </div>
+        </div>
+    </section>
+}
