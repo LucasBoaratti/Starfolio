@@ -1,10 +1,10 @@
 /* Estilizando o rodapé */
 .rodape {
     text-align: center;
-    margin: 25px 0;
+    margin: 1.5625rem 0;
 }
 
 /* Estilizando os direitos autorais do rodapé */
 .direitosAutorais {
-    font-size: 20px;
+    font-size: 1.25rem;
 }

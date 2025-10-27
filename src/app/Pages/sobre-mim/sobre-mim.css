@@ -1,0 +1,119 @@
+/* Estilizando a página Sobre Mim para exibir em telas menores */
+#sobreMim {
+    margin: 0 auto;
+    max-width: 90rem;
+}
+
+/* Estilizando a seção sobre mim */
+.sobreMimSection {
+    display: flex;
+    gap: 6.25rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3.125rem;
+}
+
+/* Estilizando o título e a descrição sobre mim */
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.8125rem;
+}
+
+/* Estilizando o título sobre mim */
+.textoSobreMim {
+    color: #FFEA00;
+    font-family: "Orbitron", sans-serif;
+    font-size: 2.5rem;
+}
+
+/* Estilizando a descrição sobre mim */
+.descricaoSobreMim {
+    width: 34.375rem;
+    height: auto;
+    font-size: 1rem;
+}
+
+/* Estilizando a área de jogos favoritos */
+.jogosFavoritos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilizando o título de jogos favoritos */
+.tituloJogosFavoritos {
+    margin: 2.5rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Orbitron", sans-serif;
+    color: #FFEA00;
+}
+
+/* Estilizando a seção do Minecraft */
+.jogosMinecraft {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 6.25rem;  
+}
+
+/* Estilizando a área da descrição do Minecraft */
+.minecraft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+/* Estilizando o título do Minecraft */
+.tituloMinecraft {
+    font-size: 2.1875rem;
+    font-family: "Orbitron";
+    color: #FFEA00;
+}
+
+/* Estilizando a descrição do Minecraft */
+.descricaoMinecraft {
+    width: 34.375rem;
+    height: auto;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+/* Estilizando a seção dos jogos de geografia */
+.jogosGeografia {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 6.25rem;
+    margin-top: 2.5rem;   
+}
+
+/* Estilizando a área de descrição dos jogos de geografia */
+.geografia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+/* Estilizando o título dos jogos de geografia */
+.tituloGeografia {
+    font-size: 2.1875rem;
+    font-family: "Orbitron";
+    color: #FFEA00;
+}
+
+/* Estilizando a descrição dos jogos de geografia */
+.descricaoGeografia {
+    width: 33.75rem;
+    height: auto;
+    font-size: 1rem;
+    text-align: justify;
+}

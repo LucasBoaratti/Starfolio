@@ -3,19 +3,19 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Orbitron", sans-serif;
-}
-
-/* Fonte padrão do site */
-@font-face {
-    font-family: "Orbitron";
-    src: url("../assets/fonts/Quantico-Regular.ttf") format("truetype");
+    font-family: "Quantico", sans-serif;
 }
 
 /* Fonte dos títulos */
 @font-face {
-    font-family: "Quantico";
+    font-family: "Orbitron";
     src: url("../assets/fonts/Orbitron-Regular.ttf") format("truetype");
+}
+
+/* Fonte padrão do site */
+@font-face {
+    font-family: "Quantico";
+    src: url("../assets/fonts/Quantico-Regular.ttf") format("truetype");
 }
 
 /* Adicionando a imagem de fundo nas páginas */

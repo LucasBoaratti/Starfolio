@@ -3,13 +3,38 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    padding: 40px;
-    font-size: 20px;
+    padding: 2.5rem;
+    font-size: 1.25rem;
 }
 
 /* Estilização dos links para acesso no site */
 .links {
     list-style-type: none;
     display: flex;
-    gap: 40px;
+    gap: 2.5rem;
+}
+
+/* Estilizando os links e deixando-os animados */
+.link {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: center;
+    background-color: white;
+    transition: transform 0.2s ease-in;
+}
+
+.link:hover::after {
+    transform: scaleX(1);
 }
