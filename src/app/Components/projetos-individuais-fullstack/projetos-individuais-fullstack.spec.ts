@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ProjetosIndividuais } from './projetos-individuais';
+import { ProjetosIndividuais } from './projetos-individuais-fullstack';
 
 describe('ProjetosIndividuais', () => {
   let component: ProjetosIndividuais;

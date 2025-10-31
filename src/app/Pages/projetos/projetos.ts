@@ -1,7 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from "@angular/router";
-import { projetos } from '../../ModelProjetos/ModelProjetos.model';
+import { projetos } from '../../ModelProjetos/ModelProjetosFullstack.model';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
@@ -11,31 +11,12 @@ import { ActivatedRoute } from '@angular/router';
   styleUrl: './projetos.css'
 })
 export class Projetos {
-  imagemProjetos = [
-    { id: 1, 
-      nome: 'Holocron Jedi', 
-      imagem: 'assets/images/Holocron_Jedi.png' 
-    },
-    { 
-      id: 2, 
-      nome: 'Holocron Sith', 
-      imagem: 'assets/images/Holocron_Sith.png' 
-    },
-    { 
-      id: 3, 
-      nome: 'Holocron Jedi', 
-      imagem: 'assets/images/Holocron_Jedi.png' 
-    },
-    { 
-      id: 4, 
-      nome: 'Holocron Sith', 
-      imagem: 'assets/images/Holocron_Sith.png' 
-    },
-  ];
   // Injetando as rotas ativas do projeto (no caso, o ID de cada projeto)
   private route = inject(ActivatedRoute);
 
+  // Chamando a lista de projetos no model 
   projetos = projetos;
 
+  // Pega o ID do projeto clicado no holocron e exibe na URL
   idProjeto: number = Number(this.route.snapshot.paramMap.get('id'));
 }

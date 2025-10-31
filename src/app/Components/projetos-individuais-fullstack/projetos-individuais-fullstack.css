@@ -1,0 +1,93 @@
+/* Estilizando a página de projetos individuais para exibir em telas menores */
+#projetosIndividuais {
+    margin: 0 auto;
+    max-width: 90rem;
+}
+
+/* Estilizando o nome do projeto e suas imagens */
+.nomeProjeto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+/* Definindo uma estilização padrão para todos os holocrons */
+.holocron {
+    box-shadow: inset 0 0 3.75rem transparent;
+    border-radius: 1.875rem;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.holocron:hover {
+    transform: scale(1.05);
+}
+
+/* Adicionando uma cor fixa para o holocron Jedi */
+.corHolocronJedi:hover {
+    box-shadow: inset 0 4px 4.375rem #0073E6, 0 0 5.625rem #0073E6;
+}
+
+/* Estilizando o nome do projeto */
+.nome {
+    font-size: 2.5rem;
+    font-family: "Orbitron";
+    color: #FFEA00;
+}
+
+/* Adicionando uma cor fixa para o holocron Sith */
+.corHolocronSith:hover {
+    box-shadow: inset 0 4px 7.5rem #FF0000, 0 0 5.625rem #FF0000;
+}
+
+/* Estilizando a logo do projeto */
+.logo {
+    text-align: center;
+    margin-top: 4.5rem;
+}
+
+/* Estilizando a descrição do projeto */
+.descricaoProjeto {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilizando o texto do projeto */
+.descricao {
+    text-align: justify;
+    width: 75.9375rem;
+}
+
+/* Estilizando o vídeo do projeto */
+.videoProjeto {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilizando o vídeo */
+.video {
+    width: 80rem;
+    height: 45rem;
+}
+
+/* Estilizando o título das ferramentas */
+.tituloFerramentas {
+    margin: 2.5rem 0;
+    text-align: center;
+    color: #FFEA00;
+    font-family: "Orbitron";
+    font-size: 2.5rem;
+}
+
+/* Estilizando as ferramentas do projeto */
+.ferramentasProjeto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5625rem;
+    margin: 0 auto;
+    width: 1350px;
+}

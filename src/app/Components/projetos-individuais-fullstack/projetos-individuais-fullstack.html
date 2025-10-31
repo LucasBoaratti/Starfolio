@@ -1,0 +1,23 @@
+<!-- Página de projetos individuais -->
+@if (projetoSelecionado) {
+    <main id="projetosIndividuais">
+        <div class="nomeProjeto">
+            <img [src]="projetoSelecionado.holocronJedi" alt="Holocron Jedi" class="holocron corHolocronJedi">
+            <h1 class="nome">Projeto: {{ projetoSelecionado.nomeProjeto }}</h1>
+            <img [src]="projetoSelecionado.holocronSith" alt="Holocron Sith" class="holocron corHolocronSith">
+        </div>
+        <div class="logo">
+            <img [src]="projetoSelecionado.logoProjeto" alt="Logo do projeto.">
+        </div>
+        <div class="descricaoProjeto">
+            <p class="descricao">{{ projetoSelecionado.descricaoProjeto }}</p>
+        </div>
+        <div class="videoProjeto">
+            <img src="assets/images/Gif_Temporario.gif" alt="Gif temporário.">
+        </div>
+        <h2 class="tituloFerramentas">Ferramentas/tecnologias</h2>
+        <div class="ferramentasProjeto">
+            <img [src]="projetoSelecionado.ferramentas" [alt]="imagemALT(ferramenta)" class="ferramenta" *ngFor="let ferramenta of ferramentas">
+        </div>
+    </main>
+}

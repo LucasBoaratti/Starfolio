@@ -19,11 +19,19 @@
 }
 
 /* Adicionando a imagem de fundo nas páginas */
-body {
+.portfolio {
     background-image: url("../assets/images/Background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilizando o layout principal */
+main {
+    flex: 1;
 }

@@ -31,15 +31,8 @@
             <h2 class="tituloFullstack">Fullstack</h2>
             <div class="holocronsFullstack">
                 <div *ngFor="let projeto of projetos; let i = index">
-                    <a [routerLink]="['/projetos', i + 1]"><img src="assets/images/Holocron_Jedi.png" alt="Holocron Jedi." class="holocron corHolocronJedi3"></a>
+                    <a [routerLink]="['/projetos/fullstack', projeto.id]"><img [src]="i % 2 === 0 ? projeto.holocronJedi : projeto.holocronSith" [alt]="i % 2 === 0 ? 'Holocron Jedi' : 'Holocron Sith'" [ngClass]="i % 2 === 0 ? 'corHolocronJedi1' : 'corHolocronSith1'" class="holocron"></a>
                 </div>
-                <div *ngFor="let projeto of projetos; let i = index">
-                    <a [routerLink]="['/projetos', i + 1]"><img src="assets/images/Holocron_Sith.png" alt="Holocron Sith" class="holocron corHolocronSith1"></a>
-                </div>
-                <img src="assets/images/Holocron_Jedi.png" alt="Holocron Jedi." class="holocron corHolocronJedi2">
-                <img src="assets/images/Holocron_Sith.png" alt="Holocron Sith" class="holocron corHolocronSith5">
-                <img src="assets/images/Holocron_Jedi.png" alt="Holocron Jedi." class="holocron corHolocronJedi1">
-                <img src="assets/images/Holocron_Sith.png" alt="Holocron Sith" class="holocron corHolocronSith2">
             </div>
         </div>
     </section>
