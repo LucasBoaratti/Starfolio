@@ -41,7 +41,7 @@
 /* Estilizando o título de FrontEnd */
 .tituloFrontEnd {
     text-align: center;
-    margin-bottom: 1.875rem;
+    margin-bottom: 2rem;
     color: #FFEA00;
     font-size: 1.875rem;
     font-family: "Orbitron", sans-serif;
@@ -92,10 +92,19 @@
     box-shadow: inset 0 4px 4.375rem #0073E6, 0 0 5.625rem #0073E6;
 }
 
+/* Estilizando a seção de projetos BackEnd */
+.backend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
 /* Estilizando o título de BackEnd */
 .tituloBackEnd {
     text-align: center;
-    margin: 1.875rem 0;
+    margin: 2rem 0;
     color: #FFEA00;
     font-size: 1.875rem;
     font-family: "Orbitron", sans-serif;
@@ -132,4 +141,31 @@
 
 .corHolocronSith6:hover {
     box-shadow: inset 0 4px 7.5rem #A80000, 0 0 5.625rem #A80000;
+}
+
+/* Estilizando a seção de projetos Fullstack */
+.fullstack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+/* Estilizando o título de Fullstack */
+.tituloFullstack {
+    text-align: center;
+    margin: 2rem 0;
+    color: #FFEA00;
+    font-size: 1.875rem;
+    font-family: "Orbitron", sans-serif;
+}
+
+/* Estilizando as imagens dos holocrons de Fullstack (Jedi e Sith) */
+.holocronsFullstack {
+    display: flex;
+    flex-wrap: wrap;
+    width: 76.875rem;
+    gap: 2.8rem;
+    margin-bottom: 2.5rem;
 }

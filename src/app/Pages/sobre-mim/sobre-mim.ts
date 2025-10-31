@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
-import { Cabecalho } from '../../Components/Cabecalho/cabecalho';
 
 @Component({
   selector: 'app-sobre-mim',
-  imports: [Cabecalho],
+  imports: [],
   templateUrl: './sobre-mim.html',
   styleUrl: './sobre-mim.css'
 })

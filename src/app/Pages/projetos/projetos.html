@@ -3,7 +3,7 @@
     <section id="projetos">
         <div class="projetosRealizados">
             <h1 class="tituloProjetos">Projetos realizados</h1>
-            <p class="descricaoProjetos">Após conquistar cada tecnologia em diferentes planetas, decidi realizar novas missões em minhas bases. Com dedicação, carinho e muito desafio, compartilho com vocês o resultados das minhas missões em Holocrons Jedi e Sith, com cada um deles separados em duas categorias: FrontEnd e BackEnd, sendo o Front, os Holocrons Jedi e o Back, os Holocrons Sith:</p>
+            <p class="descricaoProjetos">Após conquistar cada tecnologia em diferentes planetas, decidi realizar novas missões em minhas bases. Com dedicação, carinho e muito desafio, compartilho com vocês o resultados das minhas missões em Holocrons Jedi e Sith, com cada um deles separados em três categorias: FrontEnd, BackEnd, e Fullstack, sendo o Front os Holocrons Jedi, o Back os Holocrons Sith e o fullstack uma mistura dos dois:</p>
         </div>
         <div class="frontEnd">
             <h2 class="tituloFrontEnd">FrontEnd</h2>
@@ -15,14 +15,31 @@
                 <img src="assets/images/Holocron_Jedi.png" alt="Holocron Jedi." class="holocron corHolocronJedi5">
                 <img src="assets/images/Holocron_Jedi.png" alt="Holocron Jedi." class="holocron corHolocronJedi6">
             </div>
+        </div>
+        <div class="backend">
             <h2 class="tituloBackEnd">BackEnd</h2>
             <div class="holocronsBackEnd">
-                <img src="assets/images/Holocron_Sith.png" alt="Holocron Sith" class="holocron corHolocronSith1">
-                <img src="assets/images/Holocron_Sith.png" alt="Holocron Sith" class="holocron corHolocronSith2">
-                <img src="assets/images/Holocron_Sith.png" alt="Holocron Sith" class="holocron corHolocronSith3">
-                <img src="assets/images/Holocron_Sith.png" alt="Holocron Sith" class="holocron corHolocronSith4">
+                <img src="assets/images/Holocron_Sith.png" alt="Holocron Sith." class="holocron corHolocronSith1">
+                <img src="assets/images/Holocron_Sith.png" alt="Holocron Sith." class="holocron corHolocronSith2">
+                <img src="assets/images/Holocron_Sith.png" alt="Holocron Sith." class="holocron corHolocronSith3">
+                <img src="assets/images/Holocron_Sith.png" alt="Holocron Sith." class="holocron corHolocronSith4">
+                <img src="assets/images/Holocron_Sith.png" alt="Holocron Sith." class="holocron corHolocronSith5">
+                <img src="assets/images/Holocron_Sith.png" alt="Holocron Sith." class="holocron corHolocronSith6">
+            </div>
+        </div>
+        <div class="fullstack">
+            <h2 class="tituloFullstack">Fullstack</h2>
+            <div class="holocronsFullstack">
+                <div *ngFor="let projeto of projetos; let i = index">
+                    <a [routerLink]="['/projetos', i + 1]"><img src="assets/images/Holocron_Jedi.png" alt="Holocron Jedi." class="holocron corHolocronJedi3"></a>
+                </div>
+                <div *ngFor="let projeto of projetos; let i = index">
+                    <a [routerLink]="['/projetos', i + 1]"><img src="assets/images/Holocron_Sith.png" alt="Holocron Sith" class="holocron corHolocronSith1"></a>
+                </div>
+                <img src="assets/images/Holocron_Jedi.png" alt="Holocron Jedi." class="holocron corHolocronJedi2">
                 <img src="assets/images/Holocron_Sith.png" alt="Holocron Sith" class="holocron corHolocronSith5">
-                <img src="assets/images/Holocron_Sith.png" alt="Holocron Sith" class="holocron corHolocronSith6">
+                <img src="assets/images/Holocron_Jedi.png" alt="Holocron Jedi." class="holocron corHolocronJedi1">
+                <img src="assets/images/Holocron_Sith.png" alt="Holocron Sith" class="holocron corHolocronSith2">
             </div>
         </div>
     </section>

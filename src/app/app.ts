@@ -1,6 +1,6 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { Cabecalho } from "./Components/Cabecalho/cabecalho";
+import { RouterOutlet, RouterModule } from '@angular/router';
+import { Cabecalho } from './Components/cabecalho/cabecalho';
 import { Rodape } from "./Components/rodape/rodape";
 
 @Component({
