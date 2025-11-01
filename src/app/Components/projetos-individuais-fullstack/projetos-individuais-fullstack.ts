@@ -19,11 +19,8 @@ export class ProjetosIndividuaisFullstack {
   // Buscando o ID no model
   projetoSelecionado = projetos.find(p => p.id === this.idProjeto);
 
-  // Chamando a lista de projetos no model
-  projetos = projetos;
-
   // Buscando as ferramentas do projeto
-  ferramentas = projetos[0].ferramentas;
+  ferramentas = this.projetoSelecionado?.ferramentas ?? [];
 
   // Extraindo o ALT da imagem
   imagemALT(caminho: string): string {

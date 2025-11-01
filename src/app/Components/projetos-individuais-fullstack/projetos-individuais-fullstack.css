@@ -43,7 +43,7 @@
 /* Estilizando a logo do projeto */
 .logo {
     text-align: center;
-    margin-top: 4.5rem;
+    margin: 3.5rem 0;
 }
 
 /* Estilizando a descrição do projeto */
@@ -74,7 +74,7 @@
 
 /* Estilizando o título das ferramentas */
 .tituloFerramentas {
-    margin: 2.5rem 0;
+    margin: 3.5rem 0;
     text-align: center;
     color: #FFEA00;
     font-family: "Orbitron";
@@ -89,5 +89,5 @@
     align-items: center;
     gap: 1.5625rem;
     margin: 0 auto;
-    width: 1350px;
+    width: 81.25rem;
 }

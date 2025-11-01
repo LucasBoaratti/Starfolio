@@ -17,7 +17,7 @@
         </div>
         <h2 class="tituloFerramentas">Ferramentas/tecnologias</h2>
         <div class="ferramentasProjeto">
-            <img [src]="projetoSelecionado.ferramentas" [alt]="imagemALT(ferramenta)" class="ferramenta" *ngFor="let ferramenta of ferramentas">
+            <img [src]="ferramenta" [alt]="imagemALT(ferramenta)" *ngFor="let ferramenta of ferramentas">
         </div>
     </main>
 }
