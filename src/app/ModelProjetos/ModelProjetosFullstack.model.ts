@@ -1,5 +1,5 @@
-// Criando uma lista de projetos para melhor manipulação
-export const projetos = [
+// Criando uma lista de projetos Fullstack para melhor manipulação
+export const projetosFullstack = [
     {
         "id": 1,
         "nomeProjeto": "MineLucas",

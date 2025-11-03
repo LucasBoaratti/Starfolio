@@ -1,7 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
-import { projetos } from '../../ModelProjetos/ModelProjetosFullstack.model';
+import { projetosFullstack } from '../../ModelProjetos/ModelProjetosFullstack.model';
 
 @Component({
   selector: 'app-projetos-individuais-fullstack',
@@ -14,10 +14,10 @@ export class ProjetosIndividuaisFullstack {
   private route = inject(ActivatedRoute);
 
   // Pega o ID do projeto exibido na URL
-  idProjeto = Number(this.route.snapshot.paramMap.get('id'));
+  idProjetoFullstack = Number(this.route.snapshot.paramMap.get('id'));
   
   // Buscando o ID no model
-  projetoSelecionado = projetos.find(p => p.id === this.idProjeto);
+  projetoSelecionado = projetosFullstack.find(p => p.id === this.idProjetoFullstack);
 
   // Buscando as ferramentas do projeto
   ferramentas = this.projetoSelecionado?.ferramentas ?? [];

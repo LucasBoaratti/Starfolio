@@ -8,29 +8,23 @@
         <div class="frontEnd">
             <h2 class="tituloFrontEnd">FrontEnd</h2>
             <div class="holocronsFrontEnd">
-                <img src="assets/images/Holocron_Jedi.png" alt="Holocron Jedi." class="holocron corHolocronJedi1">
-                <img src="assets/images/Holocron_Jedi.png" alt="Holocron Jedi." class="holocron corHolocronJedi2">
-                <img src="assets/images/Holocron_Jedi.png" alt="Holocron Jedi." class="holocron corHolocronJedi3">
-                <img src="assets/images/Holocron_Jedi.png" alt="Holocron Jedi." class="holocron corHolocronJedi4">
-                <img src="assets/images/Holocron_Jedi.png" alt="Holocron Jedi." class="holocron corHolocronJedi5">
-                <img src="assets/images/Holocron_Jedi.png" alt="Holocron Jedi." class="holocron corHolocronJedi6">
+                <div *ngFor="let projeto of projetosFrontEnd">
+                    <a [routerLink]="['/projetos/frontend', projeto.id]"><img [src]="projeto.holocronJedi" alt="Holocron Jedi." class="holocron corHolocronJedi"></a>
+                </div>
             </div>
         </div>
         <div class="backend">
             <h2 class="tituloBackEnd">BackEnd</h2>
             <div class="holocronsBackEnd">
-                <img src="assets/images/Holocron_Sith.png" alt="Holocron Sith." class="holocron corHolocronSith1">
-                <img src="assets/images/Holocron_Sith.png" alt="Holocron Sith." class="holocron corHolocronSith2">
-                <img src="assets/images/Holocron_Sith.png" alt="Holocron Sith." class="holocron corHolocronSith3">
-                <img src="assets/images/Holocron_Sith.png" alt="Holocron Sith." class="holocron corHolocronSith4">
-                <img src="assets/images/Holocron_Sith.png" alt="Holocron Sith." class="holocron corHolocronSith5">
-                <img src="assets/images/Holocron_Sith.png" alt="Holocron Sith." class="holocron corHolocronSith6">
+                <div *ngFor="let projeto of projetosBackEnd">
+                    <a [routerLink]="['/projetos/backend', projeto.id]"><img [src]="projeto.holocronSith" alt="Holocron Sith" class="holocron corHolocronSith"></a>
+                </div>
             </div>
         </div>
         <div class="fullstack">
             <h2 class="tituloFullstack">Fullstack</h2>
             <div class="holocronsFullstack">
-                <div *ngFor="let projeto of projetos; let i = index">
+                <div *ngFor="let projeto of projetosFullstack; let i = index">
                     <a [routerLink]="['/projetos/fullstack', projeto.id]"><img [src]="i % 2 === 0 ? projeto.holocronJedi : projeto.holocronSith" [alt]="i % 2 === 0 ? 'Holocron Jedi' : 'Holocron Sith'" [ngClass]="i % 2 === 0 ? 'corHolocronJedi1' : 'corHolocronSith1'" class="holocron"></a>
                 </div>
             </div>

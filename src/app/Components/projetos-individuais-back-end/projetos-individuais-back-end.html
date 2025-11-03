@@ -1,8 +1,8 @@
-<!-- Página de projetos Fullstack individuais -->
+<!-- Página de projetos BackEnd individuais -->
 @if (projetoSelecionado) {
     <main id="projetosIndividuais">
         <div class="nomeProjeto">
-            <img [src]="projetoSelecionado.holocronJedi" alt="Holocron Jedi" class="holocron corHolocronJedi">
+            <img [src]="projetoSelecionado.holocronSith" alt="Holocron Sith" class="holocron corHolocronSith">
             <h1 class="nome">Projeto: {{ projetoSelecionado.nomeProjeto }}</h1>
             <img [src]="projetoSelecionado.holocronSith" alt="Holocron Sith" class="holocron corHolocronSith">
         </div>
@@ -17,7 +17,7 @@
         </div>
         <h2 class="tituloFerramentas">Ferramentas/tecnologias</h2>
         <div class="ferramentasProjeto">
-            <img [src]="ferramenta" [alt]="imagemALT(ferramenta)" *ngFor="let ferramenta of ferramentas">
+            <img [src]="ferramenta" [alt]="imagemAlt(ferramenta)" *ngFor="let ferramenta of ferramentas">
         </div>
     </main>
 }

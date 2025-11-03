@@ -1,8 +1,9 @@
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from "@angular/router";
-import { projetos } from '../../ModelProjetos/ModelProjetosFullstack.model';
-import { ActivatedRoute } from '@angular/router';
+import { projetosFullstack } from '../../ModelProjetos/ModelProjetosFullstack.model';
+import { projetosBackEnd } from '../../ModelProjetos/ModelProjetosBackEnd.model';
+import { projetosFrontEnd } from '../../ModelProjetos/ModelProjetosFrontEnd.model';
 
 @Component({
   selector: 'app-projetos',
@@ -11,12 +12,12 @@ import { ActivatedRoute } from '@angular/router';
   styleUrl: './projetos.css'
 })
 export class Projetos {
-  // Injetando as rotas ativas do projeto (no caso, o ID de cada projeto)
-  private route = inject(ActivatedRoute);
+  // Chamando a lista de projetos fullstack no model 
+  projetosFullstack = projetosFullstack;
 
-  // Chamando a lista de projetos no model 
-  projetos = projetos;
+  // Chamando a lista de projetos backend no model
+  projetosBackEnd = projetosBackEnd;
 
-  // Pega o ID do projeto clicado no holocron e exibe na URL
-  idProjeto: number = Number(this.route.snapshot.paramMap.get('id'));
+  // Chamando a lista de projetos frontend no model
+  projetosFrontEnd = projetosFrontEnd;
 }
