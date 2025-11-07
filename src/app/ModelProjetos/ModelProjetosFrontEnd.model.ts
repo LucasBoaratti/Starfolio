@@ -5,7 +5,7 @@ export const projetosFrontEnd = [
         "nomeProjeto": "PeLúcas",
         "holocronJedi": "assets/images/Holocron_Jedi.png",
         "logoProjeto": "assets/images/Logo_PeLúcas.png",
-        "descricaoProjeto": "PeLúcas, um E-Commerce de bichos de pelúcia mais fofo da galáxia! Aqui você encontra uma variedades de pelúcias fofas, bonitas e até assustadoras! Para fazer tudo isso, visitei alguns planetas para buscar essas pelúcias e vendê-las aqui no E-Commerce e foi complicado, cada missão envolvia batalhas por uma simples pelúcia de gatinho... Portanto, caso queria ver como funciona o site, logo abaixo está o vídeo que exibe a loja online:",
+        "descricaoProjeto": "PeLúcas, um E-Commerce de bichos de pelúcia mais fofo da galáxia! Aqui você encontra uma variedades de pelúcias fofas, bonitas e até assustadoras! Para fazer tudo isso, visitei alguns planetas para buscar essas pelúcias e vendê-las aqui no E-Commerce e foi complicado, cada missão envolvia batalhas por uma simples pelúcia de gatinho...",
         // "video": "assets/videos/MineLucas.mp4",
         "ferramentas": [
             "assets/images/Icone_HTML.png",
@@ -21,7 +21,7 @@ export const projetosFrontEnd = [
         "nomeProjeto": "Gerador de senhas",
         "holocronJedi": "assets/images/Holocron_Jedi.png",
         "logoProjeto": "assets/images/Logo_Gerador_Senha.png",
-        "descricaoProjeto": "Um gerador de senhas. Sim, é isso mesmo, apenas um gerador de senhas comum que pode ser usado por toda a galáxia. Porém ele tem um objetivo bacana: caso você não sabe qual senha colocar em uma conta que você acabou de criar, o gerador de senhas pode ser útil nesse momento, pois ele gera até 15 caracteres de senha, envolvendo letras maiúsculas, minúsculas, caracteres especiais etc. Veja o vídeo abaixo que mostra como ficou o projeto:",
+        "descricaoProjeto": "Um gerador de senhas. Sim, é isso mesmo, apenas um gerador de senhas comum que pode ser usado por toda a galáxia. Porém ele tem um objetivo bacana: caso você não sabe qual senha colocar em uma conta que você acabou de criar, o gerador de senhas pode ser útil nesse momento, pois ele gera até 15 caracteres de senha, envolvendo letras maiúsculas, minúsculas, caracteres especiais etc.",
         // "video": "assets/videos/MineLucas.mp4",
         "ferramentas": [
             "assets/images/Icone_HTML.png",
@@ -34,7 +34,7 @@ export const projetosFrontEnd = [
         "nomeProjeto": "PonyAPI",
         "holocronJedi": "assets/images/Holocron_Jedi.png",
         "logoProjeto": "assets/images/Logo_PonyAPI.png",
-        "descricaoProjeto": "Quem não gosta de Ponys não é mesmo? Aqui está uma API de My Little Pony que exibe alguns dados de um Pony para você vê-los e se apaixonar por eles! E bem, mesmo visitando os mesmos planetas de sempre, explorei um planeta que só existia ponys, isso mesmo! Apenas ponys em um planeta do Star Wars. Que loucura... Veja o vídeo abaixo que mostra como ficou a API do My Little Pony na versão Lucas:",
+        "descricaoProjeto": "Quem não gosta de Ponys não é mesmo? Aqui está uma API de My Little Pony que exibe alguns dados de um Pony para você vê-los e se apaixonar por eles! E bem, mesmo visitando os mesmos planetas de sempre, explorei um planeta que só existia ponys, isso mesmo! Apenas ponys em um planeta do Star Wars. Que loucura...",
         // "video": "assets/videos/MineLucas.mp4",
         "ferramentas": [
             "assets/images/Icone_HTML.png",
@@ -50,7 +50,7 @@ export const projetosFrontEnd = [
         "nomeProjeto": "LucasFlix",
         "holocronJedi": "assets/images/Holocron_Jedi.png",
         "logoProjeto": "assets/images/Logo_LucasFlix.png",
-        "descricaoProjeto": "Está buscando um catálago de filmes? A LucasFlix está aqui para satisfazer seu desejo! Agora, nessa galáxia muito, muito distante, você poderá ver quais filmes estão bombando pelo mundo ou até pela galáxia, além de ter um perfil com seus filmes e séries favoritos! Essa foi a minha primeira exploração no planeta Kamino e lá conheci os componentes (clones) do React e foi sensacional! Me apaixonei pelo planeta! Veja como ficou no vídeo abaixo:",
+        "descricaoProjeto": "Está buscando um catálago de filmes? A LucasFlix está aqui para satisfazer seu desejo! Agora, nessa galáxia muito, muito distante, você poderá ver quais filmes estão bombando pelo mundo ou até pela galáxia, além de ter um perfil com seus filmes e séries favoritos! Essa foi a minha primeira exploração no planeta Kamino e lá conheci os componentes (clones) do React e foi sensacional! Me apaixonei pelo planeta!",
         // "video": "assets/videos/MineLucas.mp4",
         "ferramentas": [
             "assets/images/Icone_HTML.png",
@@ -65,7 +65,7 @@ export const projetosFrontEnd = [
         "nomeProjeto": "EletroLucas",
         "holocronJedi": "assets/images/Holocron_Jedi.png",
         "logoProjeto": "assets/images/Logo_EletroLucas.png",
-        "descricaoProjeto": "Busca eletrônicos? Que legal, você acabou de achar a EletroLucas, a loja mais famosa de eletrônicos aqui de Mos Eisley! Os eletrônicos são de excelente qualidade e de alta resolução. Aqui você encontra televisões, consoles, celulares, notebooks e computadores por um preço super baratinho que você não vai se arrepender. Veja o funcionamento desse E-Commerce logo abaixo:",
+        "descricaoProjeto": "Busca eletrônicos? Que legal, você acabou de achar a EletroLucas, a loja mais famosa de eletrônicos aqui de Mos Eisley! Os eletrônicos são de excelente qualidade e de alta resolução. Aqui você encontra televisões, consoles, celulares, notebooks e computadores por um preço super baratinho que você não vai se arrepender.",
         // "video": "assets/videos/MineLucas.mp4",
         "ferramentas": [
             "assets/images/Icone_HTML.png",
@@ -80,7 +80,7 @@ export const projetosFrontEnd = [
         "nomeProjeto": "BoLucas",
         "holocronJedi": "assets/images/Holocron_Jedi.png",
         "logoProjeto": "assets/images/Logo_BoLucas.png",
-        "descricaoProjeto": "Em Lothal, eu estava buscando novas estilizações até descobrir o Tailwind. Ao descobrir essa linguagem, me apaixonei logo de primeira e fiz um site que vende bolos que está nos servidores de Lothal até hoje, além de ser uma loja famosa na cidade também. Conseguimos sobreviver quando o império dominou a cidade, inclusive eles também gostaram de nossos bolos, mas o melhor foi quando eles sairam, pois eu pude vender os meus bolos secretos e os mais deliciosos também. Veja só como está o site da BoLucas até hoje:",
+        "descricaoProjeto": "Em Lothal, eu estava buscando novas estilizações até descobrir o Tailwind. Ao descobrir essa linguagem, me apaixonei logo de primeira e fiz um site que vende bolos que está nos servidores de Lothal até hoje, além de ser uma loja famosa na cidade também. Conseguimos sobreviver quando o império dominou a cidade, inclusive eles também gostaram de nossos bolos, mas o melhor foi quando eles sairam, pois eu pude vender os meus bolos secretos e os mais deliciosos também.",
         // "video": "assets/videos/MineLucas.mp4",
         "ferramentas": [
             "assets/images/Icone_HTML.png",
@@ -94,7 +94,7 @@ export const projetosFrontEnd = [
         "nomeProjeto": "PaísesAPI",
         "holocronJedi": "assets/images/Holocron_Jedi.png",
         "logoProjeto": "assets/images/Logo_PaísesAPI.png",
-        "descricaoProjeto": "Essa API é uma das minhas favoritas, pois quando eu estava viajando pela galáxia, explorei diversos planetas e um deles foi a nossa querida e amada terra! E aqui eu explorei todos os países do mundo 1 por 1 e fiquei pelo menos 1 semana em cada país (na ficção, é claro hehehehehe) até que tive a ideia de explorar uma API de países e exibir as informações deles em um site que fiz com muito carrinho. Veja o vídeo abaixo de como ficou o projeto:",
+        "descricaoProjeto": "Essa API é uma das minhas favoritas, pois quando eu estava viajando pela galáxia, explorei diversos planetas e um deles foi a nossa querida e amada terra! E aqui eu explorei todos os países do mundo 1 por 1 e fiquei pelo menos 1 semana em cada país (na ficção, é claro hehehehehe) até que tive a ideia de explorar uma API de países e exibir as informações deles em um site que fiz com muito carrinho.",
         // "video": "assets/videos/MineLucas.mp4",
         "ferramentas": [
             "assets/images/Icone_HTML.png",
@@ -109,7 +109,7 @@ export const projetosFrontEnd = [
         "nomeProjeto": "Forcucas",
         "holocronJedi": "assets/images/Holocron_Jedi.png",
         "logoProjeto": "assets/images/Logo_Forcucas.png",
-        "descricaoProjeto": "Olá, você está em busca de um jogo? Se sim, venha conferir o Forcucas, um jogo diferente que não foi feitos nos países mais comuns como Tatooine ou Kamino e sim, foram nos planetas de Coruscant e Jedha. Ao explorar esses planetas, percebi que eles tinham potencial para a programação e então me aprofundei (mais em Jedha, é obvio), para criar esse jogo que você pode conferir logo abaixo:",
+        "descricaoProjeto": "Olá, você está em busca de um jogo? Se sim, venha conferir o Forcucas, um jogo diferente que não foi feitos nos países mais comuns como Tatooine ou Kamino e sim, foram nos planetas de Coruscant e Jedha. Ao explorar esses planetas, percebi que eles tinham potencial para a programação e então me aprofundei (mais em Jedha, é obvio), para criar esse jogo.",
         // "video": "assets/videos/MineLucas.mp4",
         "ferramentas": [
             "assets/images/Icone_JavaScript.png",
@@ -122,7 +122,7 @@ export const projetosFrontEnd = [
         "nomeProjeto": "Typedora",
         "holocronJedi": "assets/images/Holocron_Jedi.png",
         "logoProjeto": "assets/images/Logo_Typedora.png",
-        "descricaoProjeto": "Uma calculadora, um item muito intuitivo para muitas pessoas, ela é usada em aulas de matemática para calcular contas complexas, raíz quadrada, potência e entre muitas outras coisas. E ao explorar Jedha, descobri que existe uma linguagem que conheci há algum tempo... O TypeScript. Usei ele pra fazer a calculadora com sua sintaxe bem complexa e lógica de entender. Veja o vídeo abaixo de como ficou a calculadora:",
+        "descricaoProjeto": "Uma calculadora, um item muito intuitivo para muitas pessoas, ela é usada em aulas de matemática para calcular contas complexas, raíz quadrada, potência e entre muitas outras coisas. E ao explorar Jedha, descobri que existe uma linguagem que conheci há algum tempo... O TypeScript. Usei ele pra fazer a calculadora com sua sintaxe bem complexa e lógica de entender.",
         // "video": "assets/videos/MineLucas.mp4",
         "ferramentas": [
             "assets/images/Icone_JavaScript.png",
@@ -134,7 +134,7 @@ export const projetosFrontEnd = [
         "nomeProjeto": "ClimaLucas",
         "holocronJedi": "assets/images/Holocron_Jedi.png",
         "logoProjeto": "assets/images/Logo_ClimaLucas.png",
-        "descricaoProjeto": "Já teve aqueles dias que você estava em um planeta e precisou descobrir se ia fazer sol ou chuva? Pois bem, sofri no início, pois aqui na minha base em Yavin 4 não temos canal de previsão do tempo. Então pesquisei na internet e descobri uma API que mostra o clima para nós, mero mortais conhecidos como humanos. E desenvolvi a ClimaLucas, que mostra todos os dados de onde você está, além de ver de outros lugares também. Veja como o projeto ficou logo abaixo:",
+        "descricaoProjeto": "Já teve aqueles dias que você estava em um planeta e precisou descobrir se ia fazer sol ou chuva? Pois bem, sofri no início, pois aqui na minha base em Yavin 4 não temos canal de previsão do tempo. Então pesquisei na internet e descobri uma API que mostra o clima para nós, mero mortais conhecidos como humanos. E desenvolvi a ClimaLucas, que mostra todos os dados de onde você está, além de ver de outros lugares também.",
         // "video": "assets/videos/MineLucas.mp4",
         "ferramentas": [
             "assets/images/Icone_React.png",
@@ -150,7 +150,7 @@ export const projetosFrontEnd = [
         "nomeProjeto": "MongóLucas",
         "holocronJedi": "assets/images/Holocron_Jedi.png",
         "logoProjeto": "assets/images/Logo_MongóLucas.png",
-        "descricaoProjeto": "Um dos países que eu mais explorei durante as minhas jornadas foi a Mongólia, um país muito bonito e com uma cultura maravilhosa! E foi tão encantador que decidi fazer meu primeiro site em Angular lá no planeta Geonosis, e sim, estava acompanhado com um Baygon, pois lá tem tanto mosquito humano que foi difícil, viu... Mas emfim, caso você queira ver como ficou, assista o vídeo abaixo:",
+        "descricaoProjeto": "Um dos países que eu mais explorei durante as minhas jornadas foi a Mongólia, um país muito bonito e com uma cultura maravilhosa! E foi tão encantador que decidi fazer meu primeiro site em Angular lá no planeta Geonosis, e sim, estava acompanhado com um Baygon, pois lá tem tanto mosquito humano que foi difícil, viu...",
         // "video": "assets/videos/MineLucas.mp4",
         "ferramentas": [
             "assets/images/Icone_Angular.png",
@@ -165,7 +165,7 @@ export const projetosFrontEnd = [
         "nomeProjeto": "Gatucas",
         "holocronJedi": "assets/images/Holocron_Jedi.png",
         "logoProjeto": "assets/images/Logo_Gatucas.png",
-        "descricaoProjeto": "Esse projeto é um dos mais fofos que eu já fiz! Para aprender uma requisição HTTP GET no Angular, fiz uma visita as cavernas de Geonosis para realizar esse projeto. E foi uma experiência muito legal para iniciar no Angular, pois achei uma API de gatos de Lothal para usar e no final deu tudo certo! Assista o vídeo do projeto abaixo para ver como ficou:",
+        "descricaoProjeto": "Esse projeto é um dos mais fofos que eu já fiz! Para aprender uma requisição HTTP GET no Angular, fiz uma visita as cavernas de Geonosis para realizar esse projeto. E foi uma experiência muito legal para iniciar no Angular, pois achei uma API de gatos de Lothal para usar e no final deu tudo certo!",
         // "video": "assets/videos/MineLucas.mp4",
         "ferramentas": [
             "assets/images/Icone_Angular.png",
