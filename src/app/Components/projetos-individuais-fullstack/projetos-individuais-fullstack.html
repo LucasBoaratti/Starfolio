@@ -12,9 +12,6 @@
         <div class="descricaoProjeto">
             <p class="descricao">{{ projetoSelecionado.descricaoProjeto }}</p>
         </div>
-        <div class="videoProjeto">
-            <img src="assets/images/Gif_Temporario.gif" alt="Gif temporário.">
-        </div>
         <h2 class="tituloFerramentas">Ferramentas/tecnologias</h2>
         <div class="ferramentasProjeto">
             <img [src]="ferramenta" [alt]="imagemALT(ferramenta)" *ngFor="let ferramenta of ferramentas">
