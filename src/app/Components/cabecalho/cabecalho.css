@@ -38,3 +38,13 @@
 .link:hover::after {
     transform: scaleX(1);
 }
+
+#idioma {
+    background-color: transparent;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.opcoes {
+    background-color: black;
+}

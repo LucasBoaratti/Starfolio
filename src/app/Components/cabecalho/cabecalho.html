@@ -2,10 +2,14 @@
 <header class="cabecalho">
     <nav>
         <ul class="links">
-            <li><a routerLink="/" class="link">Home</a></li>
-            <li><a href="#tecnologias" class="link">Linguagens</a></li>
-            <li><a routerLink="/projetos" class="link">Projetos</a></li>
-            <li><a routerLink="/sobreMim" class="link">Sobre mim</a></li>
+            <li><a routerLink="/" class="link">{{ 'cabecalho.linkHome' | translate }}</a></li>
+            <li><a href="#tecnologias" class="link">{{ 'cabecalho.linkLinguagens' | translate }}</a></li>
+            <li><a routerLink="/projetos" class="link">{{ 'cabecalho.linkProjetos' | translate }}</a></li>
+            <li><a routerLink="/sobreMim" class="link">{{ 'cabecalho.linkSobreMim' | translate }}</a></li>
+            <select name="idioma" id="idioma" #idioma (change)="mudarIdioma(idioma.value)">
+                <option value="pt" class="opcoes">Português</option>
+                <option value="en" class="opcoes">English</option>
+            </select>
         </ul>
     </nav>
 </header>

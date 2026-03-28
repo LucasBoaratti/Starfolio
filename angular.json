@@ -20,7 +20,8 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/assets/images/",
-              "src/assets/fonts/"
+              "src/assets/fonts/",
+              "src/assets/translate/"
             ],
             "styles": [
               "src/styles.css"

@@ -1,0 +1,25 @@
+<!-- Modal do planeta específico -->
+@if (planetaAberto) {
+    @let planeta = getPlanetaAberto();
+    @if (planeta) {
+        <section class="containerModal">
+            <div class="modal" [style.background]="planeta.corModal">
+                <div class="descricaoPlaneta">
+                    <div class="descricao">
+                        <h1 class="linguagem">Linguagem|tecnologia: {{ planeta.linguagem }}</h1>
+                        <h2 class="textoPlaneta">Planeta associado: {{ planeta.nome }}</h2>
+                        <p class="textoDescricao">Descrição:</p>
+                        <p class="descricaoPlaneta">{{ planeta.descricao }}</p>
+                    </div>
+                    <div class="planetaLinguagem">
+                        <img [src]="planeta.imagemPlaneta" [alt]="planeta.nome" class="planeta">
+                        <img [src]="planeta.iconeLinguagem" [alt]="planeta.linguagem" class="icone">
+                    </div>
+                </div>
+                <div class="botaoFechar">
+                    <button type="button" class="botao" (click)="closeModal()">Fechar</button>
+                </div>
+            </div>
+        </section>
+    }
+}

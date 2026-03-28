@@ -154,4 +154,4 @@ export const projetosFullstack = [
             "assets/images/Icone_Canva.png",
         ],
     },
-]
+];

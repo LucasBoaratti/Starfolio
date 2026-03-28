@@ -74,7 +74,7 @@
 
 /* Estilizando o fundo de galáxias das tecnologias */
 .backgroundGalaxia {
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     margin-top: 2.1875rem;
     position: relative;
@@ -91,100 +91,4 @@
 /* Aumentando o tamanho do planeta ao passar o mouse por cima */
 .planeta:hover {
     transform: scale(1.2);
-}
-
-/* Definindo as posições dos planetas */
-.tatooine {
-    top: 8%;
-    left: 8%;
-}
-
-.naboo {
-    top: 25%;
-    left: 85%;
-}
-
-.coruscant {
-    top: 80%;
-    left: 87%;
-}
-
-.kamino {
-    top: 10%;
-    left: 48%;
-}
-
-.geonosis {
-    top: 15%;
-    left: 30%;
-}
-
-.lothal {
-    top: 40%;
-    left: 5%;
-}
-
-.zeltros {
-    top: 25%;
-    left: 60%;
-}
-
-.jedha {
-    top: 6%;
-    left: 70%;
-}
-
-.lahmu {
-    top: 55%;
-    left: 30%;
-}
-
-.endor {
-    top: 55%;
-    left: 85%;
-}
-
-.corellia {
-    top: 35%;
-    left: 45%;
-}
-
-.kessel {
-    top: 60%;
-    left: 10%;
-}
-
-.ryloth {
-    top: 80%;
-    left: 40%;
-}
-
-.felucia {
-    top: 35%;
-    left: 25%;
-}
-
-.chandrila {
-    top: 47%;
-    left: 67%;
-}
-
-.bespin {
-    top: 65%;
-    left: 55%;
-}
-
-.polis_massa {
-    top: 80%;
-    left: 5%;
-}
-
-.fondor {
-    top: 73%;
-    left: 22%;
-}
-
-.scarif {
-    top: 75%;
-    left: 70%;
 }
