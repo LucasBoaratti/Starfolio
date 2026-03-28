@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { planetas } from '../../../ModelPlanetas/ModelPlanetas';
+import { planetas } from '../../ModelPlanetas/ModelPlanetas';
 
 @Component({
   selector: 'app-planetas-modal',

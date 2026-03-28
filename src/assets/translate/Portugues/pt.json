@@ -7,9 +7,33 @@
     },
     "home": {
         "altImagemPerfil": "Foto de perfil",
-        "textoInformativo": "Olá, tudo bem? Meu nome é Lucas, um jovem padawan que ama fazer designs no Figma e que adora programar em qualquer linguagem Front-End! Já fiz vários projetos em diversos planetas nessa galáxia muito, muito distante... Alguns bem desafiadores, principalmente na cidade Mos-SENAI, em Tatooine, alguns na cidade BOSCH em Naboo e no templo de Yavin 4, vulgo minha casa. Venha conhecê-los aqui, nesse site realizado em uma casinha no palácio BTC, Bosch.",
+        "textoInformativo": "Olá, Meu nome é Lucas, um jovem padawan que ama fazer designs no Figma e que adora programar em qualquer linguagem Front-End! Já fiz vários projetos em diversos planetas nessa galáxia muito, muito distante... Alguns bem desafiadores, principalmente na cidade Mos-SENAI, em Tatooine, alguns na cidade BOSCH em Naboo e no templo de Yavin 4, vulgo minha casa. Venha conhecê-los aqui, nesse site realizado em uma casinha no palácio DTA, Bosch.",
         "tituloTecnologias": "Tecnologias",
         "textoTecnologias": "Nessa galáxia, descobri planetas que me ajudaram a explorar novas tecnologias existentes. Foram 5 anos explorando, e consegui dominar cada uma delas. Foi difícil, muitas lutas foram vencidas, perdidas. Porém no final de tudo, essas foram as tecnologias que aprendi em cada planeta dessa galáxia muito, muito distante.",
-        "altImagemGalaxia": "Fundo de galáxia"
+        "altImagemGalaxia": "Fundo de galáxia",
+        "altPlanetas": {
+            "1": "Tatooine",
+            "2": "Naboo",
+            "3": "Coruscant",
+            "4": "Kamino",
+            "5": "Geonosis",
+            "6": "Lothal",
+            "7": "Zeltros",
+            "8": "Jedha",
+            "9": "Lah'mu",
+            "10": "Endor",
+            "11": "Corellia",
+            "12": "Kessel",
+            "13": "Ryloth",
+            "14": "Felúcia",
+            "15": "Chandrila",
+            "16": "Bespin",
+            "17": "Polis Massa",
+            "18": "Fondor",
+            "19": "Scarif"
+        }
+    },
+    "rodape": {
+        "textoRodape": "©2025, Starfólio. Todos os direitos reservados."
     }
 }

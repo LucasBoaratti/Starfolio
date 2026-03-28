@@ -4,5 +4,36 @@
         "linkLinguagens": "Languages",
         "linkProjetos": "Projects",
         "linkSobreMim": "About me"
+    },
+    "home": {
+        "altImagemPerfil": "Profile photo",
+        "textoInformativo": "Hello, My name is Lucas, a young padawan who loves designing in Figma and who loves programming in any Front-End language! I've done several projects on different planets in this galaxy far, far away... Some very challenging, mainly in the city of Mos-SENAI, on Tatooine, some in the city of BOSCH on Naboo and in the temple of Yavin 4, commonly known as my home. Come and meet them here, on this website held in a little house in the DTA, Bosch palace.",
+        "tituloTecnologias": "Technologies",
+        "textoTecnologias": "In this galaxy, i discovered planets that helped me explore new existing technologies. It took me 5 years to explore, and i managed to master each one of them. It was difficult, many fights were won and lost. But at the end of it all, these were the technologies i learned on every planet in this galaxy far, far away.",
+        "altImagemGalaxia": "Galaxy wallpaper",
+        "altPlanetas": {
+            "1": "Tatooine",
+            "2": "Naboo",
+            "3": "Coruscant",
+            "4": "Kamino",
+            "5": "Geonosis",
+            "6": "Lothal",
+            "7": "Zeltros",
+            "8": "Jedha",
+            "9": "Lah'mu",
+            "10": "Endor",
+            "11": "Corellia",
+            "12": "Kessel",
+            "13": "Ryloth",
+            "14": "Felúcia",
+            "15": "Chandrila",
+            "16": "Bespin",
+            "17": "Polis Massa",
+            "18": "Fondor",
+            "19": "Scarif"
+        }
+    },
+    "rodape": {
+        "textoRodape": "©2025, Starfolio. All rights reserved."
     }
 }

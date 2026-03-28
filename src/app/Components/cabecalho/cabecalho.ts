@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-// TranslatePipe: usa as traduções no HTML (template)
-import { TranslateService, TranslatePipe } from '@ngx-translate/core';
+import { TranslatePipe } from '@ngx-translate/core';
+import { IdiomaService } from '../../Services/idioma.service';
 
 @Component({
   selector: 'app-cabecalho',
@@ -11,16 +11,9 @@ import { TranslateService, TranslatePipe } from '@ngx-translate/core';
   styleUrl: './cabecalho.css'
 })
 export class Cabecalho {
-  constructor(private translate: TranslateService) {
-    // Definindo o idioma padrão do site (PT-BR)
-    this.translate.setFallbackLang("pt");
-    this.translate.use("pt");
-  }
+  constructor(private idiomaService: IdiomaService) {}
 
-  // Função de mudar idioma
   mudarIdioma(idioma: string) {
-    if (idioma) {
-      this.translate.use(idioma);
-    }
+    this.idiomaService.mudarIdioma(idioma);
   }
 }

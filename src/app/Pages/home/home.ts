@@ -1,16 +1,21 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { planetas } from '../../ModelPlanetas/ModelPlanetas';
-import { PlanetasModal } from "../../Components/Modal/planetas-modal/planetas-modal";
+import { PlanetasModal } from "../../Components/planetas-modal/planetas-modal";
+import { TranslatePipe } from '@ngx-translate/core';
+import { IdiomaService } from '../../Services/idioma.service';
 
 @Component({
   selector: 'app-home',
-  imports: [CommonModule, PlanetasModal],
+  imports: [CommonModule, PlanetasModal, TranslatePipe],
   templateUrl: './home.html',
   styleUrl: './home.css'
 })
 
 export class Home {
+  // Injetando o serviço de troca de idiomas
+  constructor(private idiomaService: IdiomaService) {}
+
   // -------------- Função do modal --------------
 
   // Variável que irá controlar qual modal está aberto (armazena o ID do planeta)
