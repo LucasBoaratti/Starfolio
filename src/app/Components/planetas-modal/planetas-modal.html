@@ -6,10 +6,10 @@
             <div class="modal" [style.background]="planeta.corModal">
                 <div class="descricaoPlaneta">
                     <div class="descricao">
-                        <h1 class="linguagem">Linguagem|tecnologia: {{ planeta.linguagem }}</h1>
-                        <h2 class="textoPlaneta">Planeta associado: {{ planeta.nome }}</h2>
-                        <p class="textoDescricao">Descrição:</p>
-                        <p class="descricaoPlaneta">{{ planeta.descricao }}</p>
+                        <h1 class="linguagem">{{ 'planetasModal.linguagemTecnologia' | translate }}: {{ ('planetas.' + planeta.id + '.linguagem') | translate}}</h1>
+                        <h2 class="textoPlaneta">{{ 'planetasModal.planetaAssociado' | translate }}: {{ ('planetas.' + planeta.id + '.nome') | translate }}</h2>
+                        <p class="textoDescricao">{{ 'planetasModal.descricao' | translate }}:</p>
+                        <p class="descricaoPlaneta">{{ 'planetas.' + planeta.id + '.descricao' | translate }}</p>
                     </div>
                     <div class="planetaLinguagem">
                         <img [src]="planeta.imagemPlaneta" [alt]="planeta.nome" class="planeta">
@@ -17,7 +17,7 @@
                     </div>
                 </div>
                 <div class="botaoFechar">
-                    <button type="button" class="botao" (click)="closeModal()">Fechar</button>
+                    <button type="button" class="botao" (click)="closeModal()">{{ 'planetasModal.botaoModal' | translate }}</button>
                 </div>
             </div>
         </section>

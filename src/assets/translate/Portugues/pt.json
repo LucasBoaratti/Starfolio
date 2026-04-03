@@ -10,30 +10,182 @@
         "textoInformativo": "Olá, Meu nome é Lucas, um jovem padawan que ama fazer designs no Figma e que adora programar em qualquer linguagem Front-End! Já fiz vários projetos em diversos planetas nessa galáxia muito, muito distante... Alguns bem desafiadores, principalmente na cidade Mos-SENAI, em Tatooine, alguns na cidade BOSCH em Naboo e no templo de Yavin 4, vulgo minha casa. Venha conhecê-los aqui, nesse site realizado em uma casinha no palácio DTA, Bosch.",
         "tituloTecnologias": "Tecnologias",
         "textoTecnologias": "Nessa galáxia, descobri planetas que me ajudaram a explorar novas tecnologias existentes. Foram 5 anos explorando, e consegui dominar cada uma delas. Foi difícil, muitas lutas foram vencidas, perdidas. Porém no final de tudo, essas foram as tecnologias que aprendi em cada planeta dessa galáxia muito, muito distante.",
-        "altImagemGalaxia": "Fundo de galáxia",
-        "altPlanetas": {
-            "1": "Tatooine",
-            "2": "Naboo",
-            "3": "Coruscant",
-            "4": "Kamino",
-            "5": "Geonosis",
-            "6": "Lothal",
-            "7": "Zeltros",
-            "8": "Jedha",
-            "9": "Lah'mu",
-            "10": "Endor",
-            "11": "Corellia",
-            "12": "Kessel",
-            "13": "Ryloth",
-            "14": "Felúcia",
-            "15": "Chandrila",
-            "16": "Bespin",
-            "17": "Polis Massa",
-            "18": "Fondor",
-            "19": "Scarif"
-        }
+        "altImagemGalaxia": "Fundo de galáxia"
     },
     "rodape": {
         "textoRodape": "©2025, Starfólio. Todos os direitos reservados."
+    },
+    "planetas": {
+        "1": {
+            "nome": "Tatooine",
+            "linguagem": "HTML",
+            "descricao": "Assim como Tatooine é a base árida onde tudo começa, o HTML é o terreno fundamental da web. Simples, resistente e essencial para qualquer jornada galáctica no desenvolvimento."
+        },
+        "2": {
+            "nome": "Naboo",
+            "linguagem": "CSS",
+            "descricao": "Naboo, com seus lagos serenos e arquitetura grandiosa, reflete o CSS: a camada que traz harmonia, elegância e as cores suaves para o terreno estrutural do HTML. É a beleza que transcende a base."
+        },
+        "3": {
+            "nome": "Coruscant",
+            "linguagem": "JavaScript",
+            "descricao": "Coruscant, o centro nevrálgico da Galáxia, representa o JavaScript: é a camada de lógica e dinamismo, onde todas as interações e decisões do sistema FrontEnd são orquestradas."
+        },
+        "4": {
+            "nome": "Kamino",
+            "linguagem": "React",
+            "descricao": "Kamino, o planeta onde a eficiência é clonada e replicada, espelha o React: a tecnologia que permite construir interfaces complexas através da reutilização de componentes perfeitos e isolados."
+        },
+        "5": {
+            "nome": "Geonosis",
+            "linguagem": "Angular",
+            "descricao": "Geonosis, com suas vastas forjas e estruturas em colmeia, representa o Angular: o framework robusto e estruturado, ideal para construir aplicações de escala industrial, com arquitetura definida e ferramentas prontas para produção."
+        },
+        "6": {
+            "nome": "Lothal",
+            "linguagem": "Tailwind",
+            "descricao": "Lothal, com suas vastas planícies e a base discreta de suas fazendas, é o Tailwind CSS: um framework utilitário que traz eficiência e liberdade para construir estilos complexos diretamente no terreno do HTML."
+        },
+        "7": {
+            "nome": "Zeltros",
+            "linguagem": "SASS",
+            "descricao": "Zeltros, o mundo das cores vibrantes e do estilo exuberante, representa o Sass: a ferramenta que transforma o CSS básico em uma experiência completa, organizada e cheia de recursos, com variáveis, aninhamento e mixins que elevam a estilização a outro nível."
+        },
+        "8": {
+            "nome": "Jedha",
+            "linguagem": "TypeScript",
+            "descricao": "Jedha, a fonte do Cristal Kyber e da estrutura de crença Jedi, representa o TypeScript: a linguagem que traz ordem, tipagem e fundação robusta ao JavaScript, garantindo a solidez e a previsibilidade essenciais para grandes projetos."
+        },
+        "9": {
+            "nome": "Lah'mu",
+            "linguagem": "Flutter",
+            "descricao": "Lah'mu, com sua paisagem isolada e versátil, representa o Flutter: o framework que oferece uma tela totalmente limpa e modular para construir interfaces nativas e esteticamente belas em qualquer plataforma, garantindo refúgio e funcionalidade onde quer que o código seja levado."
+        },
+        "10": {
+            "nome": "Endor",
+            "linguagem": "Python",
+            "descricao": "Endor, com sua natureza expansiva e comunidade acolhedora (os Ewoks!), representa o Python: uma linguagem acessível e versátil, perfeita para construir a lógica de BackEnd de forma legível e poderosa, pronta para qualquer tarefa, do básico ao complexo."
+        },
+        "11": {
+            "nome": "Corellia",
+            "linguagem": "Django",
+            "descricao": "Corellia, o berço de naves icônicas e engenheiros pragmáticos, representa o Django: o framework Python que acelera o desenvolvimento BackEnd, fornecendo uma estrutura completa e 'baterias incluídas' para construir aplicações web robustas e funcionais em tempo recorde."
+        },
+        "12": {
+            "nome": "Kessel",
+            "linguagem": "FastAPI",
+            "descricao": "Kessel, o local da Rota lendária onde cada segundo conta, representa o FastAPI: o framework Python moderno que utiliza tipagem e programação assíncrona para garantir APIs de BackEnd com performance e velocidade excepcionais, ideal para a transferência de dados em alta velocidade."
+        },
+        "13": {
+            "nome": "Ryloth",
+            "linguagem": "Java",
+            "descricao": "Ryloth, com seu ciclo de dia/noite complexo e a resiliência de seu povo, representa o Java: uma linguagem madura, robusta e orientada a objetos, construída para operar com estabilidade e portabilidade em qualquer ambiente de BackEnd."
+        },
+        "14": {
+            "nome": "Felúcia",
+            "linguagem": "Dart",
+            "descricao": "Felúcia, um mundo de ecossistemas únicos e adaptações complexas, representa o Dart: a linguagem versátil e concisa que se adapta tanto ao FrontEnd (com Flutter) quanto ao BackEnd, oferecendo uma experiência de código moderna e elegante."
+        },
+        "15": {
+            "nome": "Chandrila",
+            "linguagem": "Figma",
+            "descricao": "Chandrila, com sua importância política e foco em consenso e colaboração, representa o Figma: a ferramenta central de design onde a equipe inteira (devs, designers e stakeholders) converge para criar, prototipar e evoluir a interface do usuário em tempo real."
+        },
+        "16": {
+            "nome": "Bespin",
+            "linguagem": "Canva",
+            "descricao": "Bespin, a Cidade das Nuvens que oferece uma visão ampla e acessível do céu, representa o Canva: a ferramenta que democratiza o design, permitindo a criação rápida e visualmente atrativa de qualquer recurso de FrontEnd, com total leveza e visibilidade."
+        },
+        "17": {
+            "nome": "Polis Massa",
+            "linguagem": "Vite",
+            "descricao": "Polis Massa, o posto avançado conciso e funcional focado em observação e agilidade, representa o Vite: a ferramenta que transforma o desenvolvimento FrontEnd com sua velocidade relâmpago, simplificando o bundling e garantindo a construção instantânea de projetos."
+        },
+        "18": {
+            "nome": "Fondor",
+            "linguagem": "Django Rest Framework",
+            "descricao": "Fondor, o estaleiro que transforma navios brutos em frotas funcionais, representa o Django REST Framework: a poderosa extensão que transforma um projeto Django comum em uma API REST coesa, organizada e pronta para consumo por qualquer aplicação FrontEnd."
+        },
+        "19": {
+            "nome": "Scarif",
+            "linguagem": "Banco de dados (MySQL)",
+            "descricao": "Scarif, o mundo-cofre que armazena os planos essenciais da Estrela da Morte, representa o Banco de Dados: o sistema vital que organiza, armazena e protege todos os dados estruturais e operacionais, sendo a fundação para a lógica de BackEnd e a exibição do FrontEnd."
+        }
+    },
+    "planetasModal": {
+        "linguagemTecnologia": "Linguagem/tecnologia",
+        "planetaAssociado": "Planeta associado",
+        "descricao": "Descrição",
+        "botaoModal": "Fechar"
+    },
+    "projetos": {
+        "tituloProjetos": "Meus projetos",
+        "descricaoProjetos": "Após conquistar cada tecnologia em diferentes planetas, decidi realizar novas missões em minhas bases. Com dedicação, carinho e muito desafio, compartilho com vocês o resultados das minhas missões em Holocrons Jedi e Sith, com cada um deles separados em três categorias: FrontEnd, BackEnd, e Fullstack, sendo o Front os Holocrons Jedi, o Back os Holocrons Sith e o fullstack uma mistura dos dois."
+    },
+    "projetosIndividuais": {
+        "projeto": "Projeto",
+        "ferramentasTecnologias": "Ferramentas/tecnologias"
+    },
+    "projetosFrontEnd": {
+        "1": {
+            "nome": "PeLúcas",
+            "descricao": "PeLúcas, um E-Commerce de bichos de pelúcia mais fofo da galáxia! Aqui você encontra uma variedades de pelúcias fofas, bonitas e até assustadoras! Para fazer tudo isso, visitei alguns planetas para buscar essas pelúcias e vendê-las aqui no E-Commerce e foi complicado, cada missão envolvia batalhas por uma simples pelúcia de gatinho..."
+        },
+        "2": {
+            "nome": "Gerador de senhas",
+            "descricao": "Um gerador de senhas. Sim, é isso mesmo, apenas um gerador de senhas comum que pode ser usado por toda a galáxia. Porém ele tem um objetivo bacana: caso você não sabe qual senha colocar em uma conta que você acabou de criar, o gerador de senhas pode ser útil nesse momento, pois ele gera até 15 caracteres de senha, envolvendo letras maiúsculas, minúsculas, caracteres especiais etc."
+        },
+        "3": {
+            "nome": "PonyAPI",
+            "descricao": "Quem não gosta de Ponys não é mesmo? Aqui está uma API de My Little Pony que exibe alguns dados de um Pony para você vê-los e se apaixonar por eles! E bem, mesmo visitando os mesmos planetas de sempre, explorei um planeta que só existia ponys, isso mesmo! Apenas ponys em um planeta do Star Wars. Que loucura..."
+        },
+        "4": {
+            "nome": "LucasFlix",
+            "descricao": "Está buscando um catálago de filmes? A LucasFlix está aqui para satisfazer seu desejo! Agora, nessa galáxia muito, muito distante, você poderá ver quais filmes estão bombando pelo mundo ou até pela galáxia, além de ter um perfil com seus filmes e séries favoritos! Essa foi a minha primeira exploração no planeta Kamino e lá conheci os componentes (clones) do React e foi sensacional! Me apaixonei pelo planeta!"
+        },
+        "5": {
+            "nome": "EletroLucas",
+            "descricao": "Busca eletrônicos? Que legal, você acabou de achar a EletroLucas, a loja mais famosa de eletrônicos aqui de Mos Eisley! Os eletrônicos são de excelente qualidade e de alta resolução. Aqui você encontra televisões, consoles, celulares, notebooks e computadores por um preço super baratinho que você não vai se arrepender."
+        },
+        "6": {
+            "nome": "BoLucas",
+            "descricao": "Em Lothal, eu estava buscando novas estilizações até descobrir o Tailwind. Ao descobrir essa linguagem, me apaixonei logo de primeira e fiz um site que vende bolos que está nos servidores de Lothal até hoje, além de ser uma loja famosa na cidade também. Conseguimos sobreviver quando o império dominou a cidade, inclusive eles também gostaram de nossos bolos, mas o melhor foi quando eles sairam, pois eu pude vender os meus bolos secretos e os mais deliciosos também."
+        },
+        "7": {
+            "nome": "PaísesAPI",
+            "descricao": "Essa API é uma das minhas favoritas, pois quando eu estava viajando pela galáxia, explorei diversos planetas e um deles foi a nossa querida e amada terra! E aqui eu explorei todos os países do mundo 1 por 1 e fiquei pelo menos 1 semana em cada país (na ficção, é claro hehehehehe) até que tive a ideia de explorar uma API de países e exibir as informações deles em um site que fiz com muito carrinho."
+        },
+        "8": {
+            "nome": "Forcucas",
+            "descricao": "Olá, você está em busca de um jogo? Se sim, venha conferir o Forcucas, um jogo diferente que não foi feitos nos países mais comuns como Tatooine ou Kamino e sim, foram nos planetas de Coruscant e Jedha. Ao explorar esses planetas, percebi que eles tinham potencial para a programação e então me aprofundei (mais em Jedha, é obvio), para criar esse jogo."
+        },
+        "9": {
+            "nome": "Typedora",
+            "descricao": "Uma calculadora, um item muito intuitivo para muitas pessoas, ela é usada em aulas de matemática para calcular contas complexas, raíz quadrada, potência e entre muitas outras coisas. E ao explorar Jedha, descobri que existe uma linguagem que conheci há algum tempo... O TypeScript. Usei ele pra fazer a calculadora com sua sintaxe bem complexa e lógica de entender."
+        },
+        "10": {
+            "nome": "ClimaLucas",
+            "descricao": "Já teve aqueles dias que você estava em um planeta e precisou descobrir se ia fazer sol ou chuva? Pois bem, sofri no início, pois aqui na minha base em Yavin 4 não temos canal de previsão do tempo. Então pesquisei na internet e descobri uma API que mostra o clima para nós, mero mortais conhecidos como humanos. E desenvolvi a ClimaLucas, que mostra todos os dados de onde você está, além de ver de outros lugares também."
+        },
+        "11": {
+            "nome": "MongóLucas",
+            "descricao": "Um dos países que eu mais explorei durante as minhas jornadas foi a Mongólia, um país muito bonito e com uma cultura maravilhosa! E foi tão encantador que decidi fazer meu primeiro site em Angular lá no planeta Geonosis, e sim, estava acompanhado com um Baygon, pois lá tem tanto mosquito humano que foi difícil, viu..."
+        },
+        "12": {
+            "nome": "Gatucas",
+            "descricao": "Esse projeto é um dos mais fofos que eu já fiz! Para aprender uma requisição HTTP GET no Angular, fiz uma visita as cavernas de Geonosis para realizar esse projeto. E foi uma experiência muito legal para iniciar no Angular, pois achei uma API de gatos de Lothal para usar e no final deu tudo certo!"
+        },
+        "13": {
+            "nome": "SENAICraft",
+            "descricao": "Um dos projetos mais legais que já fiz em toda minha carreira como programador: um jogo de perguntas sobre a DS15 no estilo de Minecraft. Esse jogo foi excelente, pois me fez visitar vários planetas como Kamino, Coruscant etc. na época da república galática, para aprender como fazer geolocalização em qualquer ponto da galáxia, tirar fotos em muitas paisagens bacanas, além de usar o SASS pela primeira vez!"
+        },
+        "14": {
+            "nome": "CookieKnight",
+            "descricao": "Aqui temos uma colab muito legal: Hollow Knight e StarWars! Enquanto eu explorava o planeta Kamino, encontrei uma sala que havia uma caverna para baixo do oceano que cerca toda a cidade de Tipoca. Lá encontrei insetos muito divertidos e poderosos e isso me deu uma ideia: criar um jogo de clique envolvendo TODOS os insetos daquele reino já esquecido, chamado Hallownest."
+        },
+        "15": {
+            "nome": "BingoSong",
+            "descricao": "Outra colab de jogos que tivemos foi de Hollow Knight: SilkSong com StarWars! Mas dessa vez foi em Coruscant, onde achei uma caverna um pouco mais na superfície. Lá, achei insetos ainda mais divertidos, emocionantes e engraçados com um único objetivo: chegar na Cidadela da Canção! E porque não parar um pouco no caminho para jogar um bingo, não? O site não é apenas um gerador de números, mas sim, um bingo divertido no tema de Fiarlongo."
+        }
     }
 }

@@ -9,5 +9,6 @@ import { IdiomaService } from '../../Services/idioma.service';
   styleUrl: './rodape.css'
 })
 export class Rodape {
+  // Injetando o serviço de mudança de idiomas
   constructor(private idiomaService: IdiomaService) {}
 }
