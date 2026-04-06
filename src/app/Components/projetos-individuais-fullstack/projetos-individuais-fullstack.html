@@ -3,16 +3,16 @@
     <main id="projetosIndividuais">
         <div class="nomeProjeto">
             <img [src]="projetoSelecionado.holocronJedi" alt="Holocron Jedi" class="holocron corHolocronJedi">
-            <h1 class="nome">Projeto: {{ projetoSelecionado.nomeProjeto }}</h1>
+            <h1 class="nome">{{ 'projetosIndividuais.projeto' | translate }}: {{ ('projetosFullStack.' + projetoSelecionado.id + '.nome') | translate }}</h1>
             <img [src]="projetoSelecionado.holocronSith" alt="Holocron Sith" class="holocron corHolocronSith">
         </div>
         <div class="logo">
             <img [src]="projetoSelecionado.logoProjeto" alt="Logo do projeto.">
         </div>
         <div class="descricaoProjeto">
-            <p class="descricao">{{ projetoSelecionado.descricaoProjeto }}</p>
+            <p class="descricao">{{ ('projetosFullStack.' + projetoSelecionado.id + '.descricao') | translate }}</p>
         </div>
-        <h2 class="tituloFerramentas">Ferramentas/tecnologias</h2>
+        <h2 class="tituloFerramentas">{{ 'projetosIndividuais.projeto' | translate }}</h2>
         <div class="ferramentasProjeto">
             <img [src]="ferramenta" [alt]="imagemALT(ferramenta)" *ngFor="let ferramenta of ferramentas">
         </div>

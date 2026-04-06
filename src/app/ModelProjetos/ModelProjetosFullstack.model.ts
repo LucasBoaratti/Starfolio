@@ -4,6 +4,7 @@ export const projetosFullstack = [
         id: 1,
         nomeProjeto: "MineLucas",
         holocronJedi: "assets/images/Holocron_Jedi.png",
+        holocronSith: "assets/images/Holocron_Sith.png",
         logoProjeto: "assets/images/Logo_MineLucas.png",
         descricaoProjeto: "A MineLucas foi um projeto divertido para se fazer! Nessa missão, eu explorei diversos planetas para conseguir construir uma API, no Django, encontrado no planeta Corellia, de Minecraft. Porém não era suficiente. Eu queria integrar com o React que, assim como o Django, é outro framework/biblioteca poderosa encontrada no planeta Kamino, e assim, consegui unir os dois em dois holocrons distintos: Jedi e Sith, pelo equilíbrio da força, e também, por causa do tamanho que o projeto ficou, é claro.",
         ferramentas: [
@@ -22,6 +23,7 @@ export const projetosFullstack = [
     {
         id: 2,
         nomeProjeto: "Kanbucas",
+        holocronJedi: "assets/images/Holocron_Jedi.png",
         holocronSith: "assets/images/Holocron_Sith.png",
         logoProjeto: "assets/images/Logo_Kanbucas.png",
         descricaoProjeto: "A Kanbucas foi um projeto no qual exploramos MUITO o planeta Kamino e de Corellia, em busca de acessibilidade e de um Kanban com muito estilo! Foi complicado, foram diversas missões que variam entre configurar o Django e até colocar ARIA e acessibilidade 100% no projeto. A missão foi concluída com sucesso, então caso você tenha se interessado.",
@@ -43,6 +45,7 @@ export const projetosFullstack = [
         id: 3,
         nomeProjeto: "LukeAI",
         holocronJedi: "assets/images/Holocron_Jedi.png",
+        holocronSith: "assets/images/Holocron_Sith.png",
         logoProjeto: "assets/images/Logo_LukeAI.png",
         descricaoProjeto: "A LukeAI foi um projeto desafiador, ainda em Kamino, estava explorando os laboratórios dos clones da antiga república galática e encontrei uma inteligência artificial avançada chamada Gemini, e desde então, decidi explorá-la para ver como é seu funcionamento e o resultado foi um dos melhores! Ela conseguia responder nossas perguntas de forma bem precisa. Depois, fui para Corellia novamente para mexer com o Django e com isso, desenvolvi a LukeAI.",
         ferramentas: [
@@ -62,6 +65,7 @@ export const projetosFullstack = [
     {
         id: 4,
         nomeProjeto: "SmartLucas",
+        holocronJedi: "assets/images/Holocron_Jedi.png",
         holocronSith: "assets/images/Holocron_Sith.png",
         logoProjeto: "assets/images/Logo_SmartLucas.png",
         descricaoProjeto: "SmartCity, uma cidade tecnológica construida perto do coração da galáxia, Coruscant. Essa cidade abriga os melhores sensores que existem na galáxia! Eles são: temperatura, umidade, contagem e luminosidade. E para monitorar esses sensores, foi criado a SmartLucas, onde contém os dados dos sensores citados, além de você poder registrar seu próprio sensor e acompanhar os dados dele.",
@@ -83,6 +87,7 @@ export const projetosFullstack = [
         id: 5,
         nomeProjeto: "EscoLucas",
         holocronJedi: "assets/images/Holocron_Jedi.png",
+        holocronSith: "assets/images/Holocron_Sith.png",
         logoProjeto: "assets/images/Logo_EscoLucas.png",
         descricaoProjeto: "Agora, falando de aprendizado, você conhece a EscoLucas? Se não venha conhecer agora: A EscoLucas é uma escola Jedi localizada na orla exterior, onde os alunos aprendem sobre o caminho da força e sobre o combate com sabre de luz, tendo treinamentos constantes entre outros. E aqui você pode ver quais são os professores, os ambientes e as disciplinas que existem na escola.",
         ferramentas: [
@@ -101,6 +106,7 @@ export const projetosFullstack = [
     {
         id: 6,
         nomeProjeto: "LegoAPI",
+        holocronJedi: "assets/images/Holocron_Jedi.png",
         holocronSith: "assets/images/Holocron_Sith.png",
         logoProjeto: "assets/images/Logo_LegoLucas.png",
         descricaoProjeto: "Nesse universo de Star Wars, não existe só personagens da saga, aqui também existe os personagens de Lego famosos como Batman, Robin, Indiana Jones e até os próprios personagens de Star Wars. E para controlar todos esses novos personagens, foi criado o site LegoLucas, onde você pode encontrar todos os personagens de Lego que estão espalhados pela galáxia.",
@@ -121,6 +127,7 @@ export const projetosFullstack = [
         id: 7,
         nomeProjeto: "TechnoLucas",
         holocronJedi: "assets/images/Holocron_Jedi.png",
+        holocronSith: "assets/images/Holocron_Sith.png",
         logoProjeto: "assets/images/Logo_TechnoLucas.png",
         descricaoProjeto: "Muitas vezes você precisa daquele dispositivo tecnológico para colocar em sua nave e viajar pela galáxia, né? Aqui na TechnoLucas você encontra diversas televisões, celulares e notebooks que podem ser úteis para sua nave e também, para a diversão em sua casa! :D",
         ferramentas: [
@@ -139,6 +146,7 @@ export const projetosFullstack = [
     {
         id: 8,
         nomeProjeto: "SonicUnleashedAPI",
+        holocronJedi: "assets/images/Holocron_Jedi.png",
         holocronSith: "assets/images/Holocron_Sith.png",
         logoProjeto: "assets/images/Logo_SonicUnleashedAPI.png",
         descricaoProjeto: "Alguns universos de certos personagens costumam estar escondidos na orla exterior e o universo de Sonic Unleashed é um deles. Lá você encontra algumas informações de personagens, fases e lugares desse planeta despedaçado além de poder criar o seu próprio lugar, personagem e fase! :D",

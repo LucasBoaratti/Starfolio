@@ -187,5 +187,61 @@
             "nome": "BingoSong",
             "descricao": "Another game collaboration we had was Hollow Knight: SilkSong with StarWars! But this time it was on Coruscant, where I found a cave a little further on the surface. There, I found even more fun, exciting and funny insects with a single objective: to reach the Citadel of Song! And why not stop a little on the way to play some bingo, right? The site is not just a number generator, but a fun bingo game on the Pharloom theme."
         }
+    },
+    "projetosBackEnd": {
+        "1": {
+            "nome": "Jokempo",
+            "descricao": "Jokempo, a sensational game played across the galaxy... It's very simple to play, as you just need to make a 'punch', 'clap', and a 'two' sign with your fingers/hands and try to win against someone else. But this is in real life, what if you don't have friends like me? So, in this program made in Python, you can play against the computer and whoever scores 15 points first wins the match!"
+        },
+        "2": {
+            "nome": "Adivinhucas",
+            "descricao": "Adivinhucas is a game made in Python that can be played across the galaxy! It's a game where you have to guess the number guessed by the computer in up to 15 attempts. The tip I already give is that the number goes up to 50, that is, the difficulty is at a medium level for you to get it right."
+        },
+        "3": {
+            "nome": "DownLucas",
+            "descricao": "DownLucas is a really cool website, because have you ever seen a video from a certain planet or another place in the galaxy on the YouTube app and you wanted to download it, but you had to subscribe to YouTube Premium and you didn't have the money? Because at DownLucas, you will only need the video link and download it at home, without having to sign anything! That's right, it's possible here."
+        },
+        "4": {
+            "nome": "BlockAPI",
+            "descricao": "At BlockAPI, you can create Minecraft blocks and have them displayed in your own API! The interesting thing is that it combines our Star Wars galaxy, with a beautiful Minecraft world with several colorful and beautiful blocks for you to be enchanted by. It was hard work, but it was worth it a lot, as I had to explore the difficult planet called Kessel, and I still managed to break the record for completing the Kessel journey in 10 parsecs (minutes)."
+        },
+        "5": {
+            "nome": "MercaLucas",
+            "descricao": "MercaLucas is everywhere in the galaxy, even in the most distinguished and forgotten places! Here, you can do your shopping, choosing the items that the store has, along with the quantity you want to pick up. And then, just make the payment and be happy :D"
+        }
+    },
+    "projetosFullStack": {
+        "1": {
+            "nome": "MineLucas",
+            "descricao": "MineLucas was a fun project to do! On this mission, I explored several planets to build an API in Django, found on the planet Corellia, from Minecraft. But it wasn't enough. I wanted to integrate with React which, like Django, is another powerful framework/library found on the planet Kamino, and so, I managed to unite the two into two distinct holocrons: Jedi and Sith, due to the balance of force, and also, because of the size the project became, of course."
+        },
+        "2": {
+            "nome": "Kanbucas",
+            "descricao": "Kanbucas was a project in which we explored the planet Kamino and Corellia A LOT, in search of accessibility and a very stylish Kanban! It was complicated, there were several missions that ranged from configuring Django to putting ARIA and 100% accessibility into the project. The mission was completed successfully, so in case you were interested."
+        },
+        "3": {
+            "nome": "LukeAI",
+            "descricao": "LukeAI was a challenging project, still on Kamino, I was exploring the clone laboratories of the former galactic republic and found an advanced artificial intelligence called Gemini, and since then, I decided to explore it to see how it works and the result was one of the best! She was able to answer our questions very precisely. Then, I went to Corellia again to play with Django and with that, I developed LukeAI."
+        },
+        "4": {
+            "nome": "SmartLucas",
+            "descricao": "SmartCity, a technological city built near the heart of the galaxy, Coruscant. This city is home to the best sensors in the galaxy! They are: temperature, humidity, count and luminosity. And to monitor these sensors, SmartLucas was created, which contains data from the aforementioned sensors, in addition to being able to register your own sensor and monitor its data."
+        },
+        "5": {
+            "nome": "EscoLucas",
+            "descricao": "Now, speaking of learning, do you know EscoLucas? If you don't come and see it now: EscoLucas is a Jedi school located on the outer rim, where students learn about the path of the force and about combat with a lightsaber, undergoing constant training, among others. And here you can see which teachers, environments and subjects exist at the school."
+        },
+        "6": {
+            "nome": "LegoAPI",
+            "descricao": "In this Star Wars universe, there are not only characters from the saga, there are also famous Lego characters such as Batman, Robin, Indiana Jones and even the Star Wars characters themselves. And to control all these new characters, the LegoLucas website was created, where you can find all the Lego characters that are spread across the galaxy."
+        },
+        "7": {
+            "nome": "TechnoLucas",
+            "descricao": "You often need that technological device to put on your ship and travel around the galaxy, right? Here at TechnoLucas you will find several televisions, cell phones and notebooks that can be useful for your ship and also for fun at home! :D"
+        },
+        "8": {
+            "nome": "SonicUnleashedAPI",
+            "descricao": "Some universes of certain characters tend to be hidden on the outer rim and the Sonic Unleashed universe is one of them. There you will find some information about characters, phases and places on this shattered planet, as well as being able to create your own place, character and phase! :D"
+        }
     }
 }
