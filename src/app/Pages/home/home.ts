@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { planetas } from '../../ModelPlanetas/ModelPlanetas';
+import { planetas } from '../../ModelPlanetas/ModelPlanetas.model';
 import { PlanetasModal } from "../../Components/planetas-modal/planetas-modal";
 import { TranslatePipe } from '@ngx-translate/core';
 import { IdiomaService } from '../../Services/idioma.service';

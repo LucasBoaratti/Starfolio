@@ -3,7 +3,6 @@
     <nav>
         <ul class="links">
             <li><a routerLink="/" class="link">{{ 'cabecalho.linkHome' | translate }}</a></li>
-            <li><a href="#tecnologias" class="link">{{ 'cabecalho.linkLinguagens' | translate }}</a></li>
             <li><a routerLink="/projetos" class="link">{{ 'cabecalho.linkProjetos' | translate }}</a></li>
             <li><a routerLink="/sobreMim" class="link">{{ 'cabecalho.linkSobreMim' | translate }}</a></li>
             <select name="idioma" id="idioma" #idioma (change)="mudarIdioma(idioma.value)">

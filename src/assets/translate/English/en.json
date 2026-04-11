@@ -1,7 +1,6 @@
 {
     "cabecalho": {
         "linkHome": "Home",
-        "linkLinguagens": "Languages",
         "linkProjetos": "Projects",
         "linkSobreMim": "About me"
     },
@@ -13,7 +12,7 @@
         "altImagemGalaxia": "Galaxy wallpaper"
     },
     "rodape": {
-        "textoRodape": "©2025, Starfolio. All rights reserved."
+        "textoRodape": "©2026, Starfolio. All rights reserved."
     },
     "planetas": {
         "1": {
@@ -243,5 +242,12 @@
             "nome": "SonicUnleashedAPI",
             "descricao": "Some universes of certain characters tend to be hidden on the outer rim and the Sonic Unleashed universe is one of them. There you will find some information about characters, phases and places on this shattered planet, as well as being able to create your own place, character and phase! :D"
         }
+    },
+    "sobreMim": {
+        "textoSobreMim": "About me",
+        "descricaoSobreMim": "Hello, my name is Lucas and well, I already talked a little about myself at the beginning of my journey, but did you know that I also like other things besides programming, exploring the galaxy and doing missions? If not, I'll talk a little more about these things I like! :D",
+        "tituloJogosFavoritos": "Gamer galaxy",
+        "altSetaEsquerda": "Back",
+        "altSetaDireita": "Next"
     }
 }

@@ -1,6 +1,6 @@
 # 🌟 Starfólio 🌟
 
-Seja bem-vindo(a) ao meu portfólio pessoal! Aqui você pode ver todos os meus projetos pessoais que eu já fiz ao longo da minha vida. Além disso, tem algumas curiosidades sobre mim e do que eu gosto :D Esse portfólio foi feito no tema de StarWars, usando o framework Angular como linguagem principal. Espero muito que vocês gostem, pois feito com carinho <3
+Seja bem-vindo(a) ao meu portfólio pessoal! Aqui você pode ver todos os meus projetos pessoais que eu já fiz ao longo da minha vida. Além disso, tem algumas curiosidades sobre mim e do que eu gosto :D Esse portfólio foi feito no tema de StarWars, usando o framework Angular como linguagem principal e disponível em dois idiomas: português e inglês. Espero muito que vocês gostem, pois feito com carinho <3
 
 # 🌟 Instalação e uso 🌟
 

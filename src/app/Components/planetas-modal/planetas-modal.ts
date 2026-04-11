@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { planetas } from '../../ModelPlanetas/ModelPlanetas';
+import { planetas } from '../../ModelPlanetas/ModelPlanetas.model';
 import { IdiomaService } from '../../Services/idioma.service';
 import { TranslatePipe } from '@ngx-translate/core';
 
@@ -11,7 +11,7 @@ import { TranslatePipe } from '@ngx-translate/core';
   styleUrl: './planetas-modal.css',
 })
 export class PlanetasModal {
-   // Injetando o serviço de mudança de idiomas
+  // Injetando o serviço de mudança de idiomas
   constructor(private idiomaService: IdiomaService) {}
 
   // Recebe o ID do planeta que está aberto (null se nenhum está aberto)

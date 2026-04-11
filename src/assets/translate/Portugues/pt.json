@@ -1,7 +1,6 @@
 {
     "cabecalho": {
         "linkHome": "Home",
-        "linkLinguagens": "Linguagens",
         "linkProjetos": "Projetos",
         "linkSobreMim": "Sobre mim"
     },
@@ -13,7 +12,7 @@
         "altImagemGalaxia": "Fundo de galáxia"
     },
     "rodape": {
-        "textoRodape": "©2025, Starfólio. Todos os direitos reservados."
+        "textoRodape": "©2026, Starfólio. Todos os direitos reservados."
     },
     "planetas": {
         "1": {
@@ -243,5 +242,12 @@
             "nome": "SonicUnleashedAPI",
             "descricao": "Alguns universos de certos personagens costumam estar escondidos na orla exterior e o universo de Sonic Unleashed é um deles. Lá você encontra algumas informações de personagens, fases e lugares desse planeta despedaçado além de poder criar o seu próprio lugar, personagem e fase! :D"
         }
+    },
+    "sobreMim": {
+        "textoSobreMim": "Sobre mim",
+        "descricaoSobreMim": "Olá, meu nome é Lucas e bom, eu já falei um pouco sobre mim lá no início da minha jornada, mas sabia que eu também gosto de outras coisas além de programar, explorar a galáxia e fazer missões? Se não, vou falar mais um pouco sobre essas coisas que eu gosto! :D",
+        "tituloJogosFavoritos": "Galáxia gamer",
+        "altSetaEsquerda": "Voltar",
+        "altSetaDireita": "Avançar"
     }
 }

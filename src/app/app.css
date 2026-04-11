@@ -6,6 +6,11 @@
     font-family: "Quantico", sans-serif;
 }
 
+/* Scrool suave */
+html {
+    scroll-behavior: smooth;
+}
+
 /* Fonte dos títulos */
 @font-face {
     font-family: "Orbitron";

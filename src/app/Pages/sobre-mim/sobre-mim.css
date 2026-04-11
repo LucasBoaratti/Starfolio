@@ -53,67 +53,66 @@
     color: #FFEA00;
 }
 
-/* Estilizando a seção do Minecraft */
-.jogosMinecraft {
+/* Estilizando o carrossel de jogos */
+.carrossel {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 6.25rem;  
-}
-
-/* Estilizando a área da descrição do Minecraft */
-.minecraft {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2.5rem;
+    overflow: hidden;
+    margin-bottom: 1.875rem;
 }
 
-/* Estilizando o título do Minecraft */
-.tituloMinecraft {
-    font-size: 2.1875rem;
-    font-family: "Orbitron";
-    color: #FFEA00;
+/* Estilizando os botões de voltar e avançar */
+.botaoVoltar button, .botaoAvancar button {
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    margin: 0 1.875rem;
 }
 
-/* Estilizando a descrição do Minecraft */
-.descricaoMinecraft {
-    width: 34.375rem;
-    height: auto;
-    text-align: justify;
-    font-size: 1rem;
-}
-
-/* Estilizando a seção dos jogos de geografia */
-.jogosGeografia {
+/* Estilizando o carrossel interno */
+.cardJogos {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 6.25rem;
-    margin-top: 2.5rem;   
+    gap: 3.125rem;
 }
 
-/* Estilizando a área de descrição dos jogos de geografia */
-.geografia {
+.jogos {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2.5rem;
+    gap: 5px;
+    text-align: center;
+    width: 13.75rem;
+    min-height: 26rem;
 }
 
-/* Estilizando o título dos jogos de geografia */
-.tituloGeografia {
-    font-size: 2.1875rem;
-    font-family: "Orbitron";
-    color: #FFEA00;
+/* Exibe o nome do jogo, apenas ao passar o mouse por cima da imagem */
+.imagemJogo:hover ~ .nomeJogo {
+    transform: translateY(0);
+    opacity: 1;
 }
 
-/* Estilizando a descrição dos jogos de geografia */
-.descricaoGeografia {
-    width: 33.75rem;
-    height: auto;
-    font-size: 1rem;
-    text-align: justify;
+/* Estilizando a capa de jogos */
+.imagemJogo {
+    box-shadow: 0 10px 15px #00D05E;
+    transition: transform 0.2s ease-in-out;
+    max-width: 13.75rem;
+    max-height: 20.625rem;
+    object-fit: cover;
+}
+
+.imagemJogo:hover {
+    transform: scale(1.02);
+}
+
+/* Estilizando o nome do jogo */
+.nomeJogo {
+    transform: translateY(-5px);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    font-size: 1.125rem;
+    cursor: default;
+    user-select: none;
 }
