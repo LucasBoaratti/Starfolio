@@ -48,3 +48,13 @@
 .opcoes {
     background-color: black;
 }
+
+/* Responsividade para telas menores (notebooks) */
+@media (max-width: 1440px) {
+    .cabecalho {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 85rem;
+    }
+}
