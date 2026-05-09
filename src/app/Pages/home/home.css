@@ -82,14 +82,30 @@
 
 /* Estilizando todos os planetas para ficarem "mexíveis" */
 .planeta {
-    position: absolute;
     cursor: pointer;
-    transform: translate(-50% -100%);
+    transition: transform 0.3s ease-in;
+}
+
+/* Botão que envolve o planeta */
+.planetaBtn {
+    position: absolute;
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
     transition: transform 0.3s ease-in;
 }
 
 /* Aumentando o tamanho do planeta ao passar o mouse por cima */
-.planeta:hover {
+.planetaBtn:hover {
+    transform: scale(1.2);
+}
+
+/* Foco visível para navegação por teclado nos planetas */
+.planetaBtn:focus-visible {
+    outline: 2px solid #FFEA00;
+    outline-offset: 4px;
+    border-radius: 50%;
     transform: scale(1.2);
 }
 

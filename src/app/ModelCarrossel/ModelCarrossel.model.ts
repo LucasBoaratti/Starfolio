@@ -74,4 +74,9 @@ export const carrossel = [
         nome: "Minecraft",
         imagem: "assets/images/Minecraft.png",
     },
+    {
+        id: 16,
+        nome: "Cuphead",
+        imagem: "assets/images/Cuphead.png",
+    },
 ];

@@ -115,3 +115,9 @@
     border: 2px solid black;
     color: white;
 }
+
+/* Foco visível no botão fechar para navegação por teclado */
+.botao:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 4px;
+}

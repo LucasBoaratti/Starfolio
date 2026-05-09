@@ -2,8 +2,8 @@
 @if (planetaAberto) {
     @let planeta = getPlanetaAberto();
     @if (planeta) {
-        <section class="containerModal">
-            <div class="modal" [style.background]="planeta.corModal">
+        <section class="containerModal" (click)="closeModal()" (keydown.escape)="closeModal()">
+            <div class="modal" [style.background]="planeta.corModal" (click)="$event.stopPropagation()">
                 <div class="descricaoPlaneta">
                     <div class="descricao">
                         <h1 class="linguagem">{{ 'planetasModal.linguagemTecnologia' | translate }}: {{ ('planetas.' + planeta.id + '.linguagem') | translate}}</h1>
@@ -17,7 +17,7 @@
                     </div>
                 </div>
                 <div class="botaoFechar">
-                    <button type="button" class="botao" (click)="closeModal()">{{ 'planetasModal.botaoModal' | translate }}</button>
+                    <button type="button" class="botao" (click)="closeModal()" autofocus>{{ 'planetasModal.botaoModal' | translate }}</button>
                 </div>
             </div>
         </section>

@@ -1,14 +1,17 @@
 <!-- Cabeçalho -->
-<header class="cabecalho">
-    <nav>
-        <ul class="links">
-            <li><a routerLink="/" class="link">{{ 'cabecalho.linkHome' | translate }}</a></li>
+<header class="cabecalho" role="banner">
+    <nav aria-label="Navegação principal">
+        <ul class="links" role="list">
+            <li><a routerLink="/" class="link" tabindex="0">{{ 'cabecalho.linkHome' | translate }}</a></li>
             <li><a routerLink="/projetos" class="link">{{ 'cabecalho.linkProjetos' | translate }}</a></li>
             <li><a routerLink="/sobreMim" class="link">{{ 'cabecalho.linkSobreMim' | translate }}</a></li>
-            <select name="idioma" id="idioma" #idioma (change)="mudarIdioma(idioma.value)">
-                <option value="pt" class="opcoes">Português</option>
-                <option value="en" class="opcoes">English</option>
-            </select>
+            <li>
+                <label for="idioma" class="labelLeitorTela">Selecionar idioma</label>
+                <select name="idioma" id="idioma" #idioma (change)="mudarIdioma(idioma.value)" aria-label="Selecionar idioma">
+                    <option value="pt" class="opcoes">Português</option>
+                    <option value="en" class="opcoes">English</option>
+                </select>
+            </li>
         </ul>
     </nav>
 </header>
